@@ -1,6 +1,8 @@
-# To process
-- [ ] Maxi processo a 'Cosa Nostra': Palermo, 25.06.1986, 19.10.1987,
-22.10.1987, 27.10.1987, 12.07.1990.
+# Development notes
+
+## Recordings to process
+- [ ] [Maxi processo a 'Cosa Nostra': Palermo, 25.06.1986, 19.10.1987,
+22.10.1987, 27.10.1987, 12.07.1990](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra).
 - [ ] Processo per la strage di Capaci, omicidio Falcone: Caltanissetta,
 08.01.1996, 28.07.1997, 10.03.2000.
 - [ ] Processo per lo scandalo dell'Ospedale Psichiatrico di Agrigento,
@@ -15,3 +17,10 @@ Agrigento: 27.11.2000, 10.01.2001, 29.01.2001, 12.02.2001, 19.02.2001,
 - [ ] Congresso Forense Castel Capuano (NA): 09.09.1999.
 - [ ] Congresso straordinario Unione Camere Penali, Roma: 27-28.11.1999.
 - [ ] Congresso Unione Camere Penali, Cattolica (RN): 29.09.2000.
+
+## Links to relevant documentation and tutorials
+- [Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/) (web scraping lib)
+- [FFMPEG Python bindings](https://pypi.org/project/python-ffmpeg/)
+- [Pyannote-audio](https://github.com/pyannote/pyannote-audio) (simplest possible diarization)
+- [Diarization with resemblizer and spectral clustering](https://medium.com/saarthi-ai/who-spoke-when-build-your-own-speaker-diarization-module-from-scratch-e7d725ee279)
+- [Resemblyzer](https://github.com/resemble-ai/Resemblyzer) 
