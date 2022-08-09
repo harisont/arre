@@ -4,11 +4,15 @@ from ffmpeg import FFmpeg
 import asyncio
 import sys
 
+'''Given a trial webpage url, return the URL of the audio
+stream it contains and its title'''
 def get_stream(webpage_url):
     soup = BeautifulSoup(urlopen(webpage_url).read())
     a = soup.find(title="Player")
     return a.get("href"), soup.title.string
 
+'''Given a stream title and url, write the stream's audio contents to an 
+mp3 file with FFMPEG'''
 def download_rtsp(stream_url, title):
     ffmpeg = FFmpeg().input(
         stream_url,
