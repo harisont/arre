@@ -162,3 +162,7 @@ cython_debug/
 # Audio files
 *.mp3
 *.wav
+
+# CSVs
+*.csv
+*.tsv
