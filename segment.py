@@ -1,14 +1,15 @@
 import sys
 import csv
 from os import path
+from itertools import groupby
 from pyannote.audio import Pipeline
 from inaSpeechSegmenter import Segmenter
-from pyAudioAnalysis import audioSegmentation
 
 # Diarization with pyannote-audio (too slow to be useful)
 
 '''Given its path, diarize a .wav file, returning a list of audio segments,
-   audio_path needs to point to a .wav file'''
+   audio_path needs to point to a .wav file
+'''
 def diarize_pa(audio_path):
     pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization")
     diarization = pipeline(audio_path)
@@ -27,28 +28,43 @@ def segments_to_csv_pa(title, segments):
 
 # Segmentation with inaSpeechSegmenter
 
+'''Basic speech/noEnergy/noise/music segmentation via inaSpeechSegmenter'''
 def segment_ina(audio_path):
     segmenter = Segmenter(detect_gender=False)
     return segmenter(audio_path)
 
-# Diarization with pyAudioAnalysis
+'''Rule-based refinement of segments obtained via inaSpeechSegmenter.
+   - noEnergy/noise/music -> pause (simplify_labels)
+   - rm pauses shorter than half a sec (rm_short_pauses)
+   - merge contiguous same-label segments (merge_contiguous)
+'''
+def refine_ina(segments):
+    def simplify_labels(segments):
+        return list(map(
+            lambda s: (s[0] if s[0] == "speech" else "pause",s[1],s[2]), 
+            segments
+            ))
+    def rm_short_pauses(segments):
+        return list(filter(
+            lambda s: s[0] == "speech" or s[2] - s[1] < 0.5,
+            segments
+            ))
+    def merge_contiguous(segments):
+        groups = list(groupby(segments, lambda s: s[0]))
+        print(groups)
+        # TODO: return list(map(lambda g: (g[0][0], g[0][1], g[-1][2]), groups))
+    return merge_contiguous(rm_short_pauses(simplify_labels(segments)))
 
-def diarize_paa(audio_path):
-    segments = audioSegmentation.speaker_diarization(audio_path, 0)
-    return segments
 
 if __name__ == "__main__":
     cmd = sys.argv[1]
     for audio_path in sys.argv[2:]:
-        if cmd == "pyannote-audio":
+        if cmd == "diarize":
             segments = diarize_pa(audio_path)
             segments_to_csv_pa(path.splitext(audio_path)[0], segments)
-        elif cmd == "inaSpeechSegmenter":
-            segments = segment_ina(audio_path)
+        elif cmd == "simple-segment":
+            segments = refine_ina(segment_ina(audio_path))
             segments_to_csv_pa(path.splitext(audio_path)[0], segments)
-        elif cmd == "pyAudioAnalysis":
-            segments = diarize_pa(audio_path)
-            print(segments)
         else:
             print("Invalid segmentation method!")
         
