@@ -12,3 +12,11 @@ A collection of quick-and-dirty Python script to download and transcribe [trials
     ```
     python convert.py MP3_PATH(s)
     ```
+3. Segment the WAV files [`segment.py`](segment.py), running
+    ```
+    python segmetn.py CMD WAV_PATH(s)
+    ```
+    Here, `CMD` is used to specify the segmentation method. The available methods are:
+       - `pyannote-audio`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU)
+       -  `inaSpeechSegmenter`: speech-noise-noEnergy segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
+       -  `pyAudioAnalysis`: speaker diarization with [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) (very slow)
