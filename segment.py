@@ -35,7 +35,7 @@ def segment_ina(audio_path):
 
 '''Rule-based refinement of segments obtained via inaSpeechSegmenter.
    - noEnergy/noise/music -> pause (simplify_labels)
-   - rm pauses shorter than a sec (rm_short_pauses)
+   - rm pauses shorter than max sec (rm_short_pauses)
    - merge contiguous same-label segments (merge_contiguous)
 '''
 def refine_ina(segments):
@@ -44,10 +44,10 @@ def refine_ina(segments):
             lambda s: (s[0] if s[0] == "speech" else "pause",s[1],s[2]), 
             segments
             ))
-    def rm_short_pauses(segments):
+    def rm_short_pauses(segments, max=2):
         return list(filter(
             lambda s: 
-                s[0] == "speech" or (s[0] == "pause" and s[2] - s[1] >= 1),
+                s[0] == "speech" or (s[0] == "pause" and s[2] - s[1] >= max),
             segments
             ))
     def merge_contiguous(segments):
