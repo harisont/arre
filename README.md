@@ -1,6 +1,11 @@
 # Arré
 A collection of quick-and-dirty Python script to download and transcribe [trials from the Radio Radicale archives](https://www.radioradicale.it/processi).
 
+## Dependencies
+- the Python dependencies listed in [`dependencies.txt`](dependencies.txt)
+- `ffmpeg`
+- `unzip`
+
 ## Usage
 1. Download the MP3 file(s) with [`download.py`](download.py) to the `data` folder. Run
     ```
