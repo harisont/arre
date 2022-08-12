@@ -2,7 +2,7 @@
 A collection of quick-and-dirty Python script to download and transcribe [trials from the Radio Radicale archives](https://www.radioradicale.it/processi).
 
 ## Usage
-1. Download the MP3 file(s) with [`download.py`](download.py) to the current folder. Run
+1. Download the MP3 file(s) with [`download.py`](download.py) to the `data` folder. Run
     ```
     python download.py WEBPAGE_URL(s)
     ```
