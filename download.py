@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 from ffmpeg import FFmpeg
 import asyncio
 import sys
+import os
+
+DATA_FOLDER = "data"
+TMP = "tmp.mp3"
 
 '''Given a trial webpage url, return the URL of the audio
 stream it contains and its title'''
@@ -14,10 +18,12 @@ def get_stream(webpage_url):
 '''Given a stream title and url, write the stream's audio contents to an 
 mp3 file with FFMPEG'''
 def download_rtsp(stream_url, title):
+    subdir_path = os.path.join(DATA_FOLDER, title)
+    if not os.path.isdir(subdir_path): os.makedirs(subdir_path)
     ffmpeg = FFmpeg().input(
         stream_url,
     ).output(
-        title + '.mp3',
+        TMP,
         {'codec:v': 'copy'},
     )
 
@@ -46,8 +52,10 @@ def download_rtsp(stream_url, title):
         print('Error: ', code)
 
     asyncio.run(ffmpeg.execute())
+    os.rename(TMP, os.path.join(subdir_path, 'full_audio.mp3'))
 
 if __name__ == "__main__":
+    if not os.path.isdir(DATA_FOLDER): os.mkdir(DATA_FOLDER)
     for webpage_url in sys.argv[1:]:
         stream_url, title = get_stream(webpage_url)
         download_rtsp(stream_url,title)
