@@ -1,9 +1,7 @@
-from email.mime import audio
 import sys
-import csv
 import speech_recognition as sr
 
-def transcribe_segment(audio_path, start, stop, hints=[]):
+def transcribe_segment_sphinx(audio_path, start, stop, hints=[]):
     r = sr.Recognizer()
     audio_file = sr.AudioFile(audio_path)
     with audio_file as source:
@@ -13,7 +11,10 @@ def transcribe_segment(audio_path, start, stop, hints=[]):
                 language="it-IT", 
                 keyword_entries=hints)
 
-
-if __name__ == "__main__":
-    trial = sys.argv[1]
-    pass
+def transcribe_segment_google(audio_path, start, stop):
+    r = sr.Recognizer()
+    audio_file = sr.AudioFile(audio_path)
+    with audio_file as source:
+        r.adjust_for_ambient_noise(source)
+        audio = r.record(source, offset=start, duration=stop - start)
+        return r.recognize_google(audio, language="it-IT")
