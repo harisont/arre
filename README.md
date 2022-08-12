@@ -43,6 +43,6 @@ A collection of quick-and-dirty Python script to download and transcribe [trials
    ```
    where `CMD` can be `google` or `sphinx`. Note that:
    - `google` uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
-   - `shinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it supports Italian, it supports custom keywords and it even works offline. In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
+   - `sphinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it is highly configurable, it supports custom keywords and it even works offline! In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
 5. TODO: transcribe a trial!
 6. TODO: generate the PDF
