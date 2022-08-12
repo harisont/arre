@@ -166,3 +166,6 @@ cython_debug/
 # CSVs
 *.csv
 *.tsv
+
+# Langmodels and other heavy stuff
+*.zip

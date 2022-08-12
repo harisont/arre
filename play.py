@@ -1,3 +1,4 @@
+import sys
 import pyaudio
 import wave
 
@@ -18,3 +19,9 @@ def play_segment(audio_path, start,stop):
     stream.close()
     py_audio.terminate()
     wav.close()
+
+if __name__ == "__main__":
+    audio_path = sys.argv[1]
+    start = float(sys.argv[2])
+    stop = float(sys.argv[3])
+    play_segment(audio_path, start, stop)

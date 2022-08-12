@@ -18,3 +18,15 @@ def transcribe_segment_google(audio_path, start, stop):
         r.adjust_for_ambient_noise(source)
         audio = r.record(source, offset=start, duration=stop - start)
         return r.recognize_google(audio, language="it-IT")
+
+if __name__ == "__main__":
+    cmd = sys.argv[1]
+    audio_path = sys.argv[2]
+    start = float(sys.argv[3])
+    stop = float(sys.argv[4])
+    txt = "Invalid transcription method!"
+    if cmd == "sphinx":
+        txt = transcribe_segment_sphinx(audio_path, start, stop)
+    elif cmd == "google":
+        txt = transcribe_segment_google(audio_path, start, stop)
+    print(txt)

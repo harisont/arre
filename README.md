@@ -4,7 +4,16 @@ A collection of quick-and-dirty Python script to download and transcribe [trials
 ## Dependencies
 - the Python dependencies listed in [`dependencies.txt`](dependencies.txt)
 - `ffmpeg`
-- `unzip`
+- `unzip` (only if you are trying to transcribe with Sphinx, see below)
+
+## Setup
+1. Install the above listed dependencies
+2. If you want to try using Sphinx for transcriptions (not recommended):
+   1. [download the language models for Italian](https://drive.google.com/file/d/0Bw_EqP-hnaFNSXUtMm8tRkdUejg/view?resourcekey=0-9IOo0qEMHOAR3z6rzIqgBg) to the [`models`](models/) directory
+   2. install them by running
+        ```
+        cd models && bash install_it-IT.sh 
+        ```
 
 ## Usage
 1. Download the MP3 file(s) with [`download.py`](download.py) to the `data` folder. Run
@@ -24,3 +33,16 @@ A collection of quick-and-dirty Python script to download and transcribe [trials
     Here, `CMD` is used to specify the segmentation method. The available methods are:
        - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
        -  `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
+4. (optional) Test the different transcription methods __on individual segments__ using [`play.py`](play.py) and [`transcribe.py`](transcribe.py). Usage is as follows:
+   ```
+   python play.py WAV_PATH SEGMENT_START SEGMENT_END    # play the given segment
+   ```
+   where `SEGMENT_START` and `SEGMENT_END` are floating-point numbers, and, similarly,
+   ```
+   python transcribe.py CMD WAV_PATH SEGMENT_START SEGMENT_END
+   ```
+   where `CMD` can be `google` or `sphinx`. Note that:
+   - `google` uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
+   - `shinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it supports Italian, it supports custom keywords and it even works offline. In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
+5. TODO: transcribe a trial!
+6. TODO: generate the PDF
