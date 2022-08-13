@@ -1,5 +1,5 @@
 # Arré
-A collection of quick-and-dirty Python script to download and transcribe [trials from the Radio Radicale archives](https://www.radioradicale.it/processi).
+A collection of quick-and-dirty Python script to download and transcribe [trials from the Radio Radicale archives](https://www.radioradicale.it/processi) (feel free to skip the rambling and go directly to [the practicalities](#dependencies)).
 
 ## Goals and design philosophy
 This is a holiday NLP project I started because of my mother and my cousin's desire to make a high-quality transcription of my grandfather's interventions in a few trials that were important for the history of Italy without spending the rest of their lives manually transcribing every single word.
@@ -24,6 +24,12 @@ For these reasons, I tried to keep the following in mind:
   - usage instruction should be available in Italian
 - __this is not a research project__: I don't care whether [fullstop-deep-punctuation-prediction](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction) is state-of-the-art or not. If a package is easy to use and improves the results, it's in
 - __this is, in fact, a holiday project__: I have both more fun things to do while at the seaside and more interesting NLP projects to focus on when I'm back at work. So, no headaches allowed: if A is too complicated, replace it with B.
+
+### Naming
+I named the project _arré_, the Sicilian word for "again", not only because my family, my grandfather included, is from Sicily, and pointing to the Italian term _arringa_ ("closing argument" in the legal domain), but also thinking of one of the problems I was anticipating when I started thinking about automatically transcribing long audio files: that of systematic errors.
+I could easily picture myself my mother, seeing the same uncommon surname misspelled for the 15th time, exclaiming "Arre!?!" and getting angry (with good reason) at the computer. 
+In the development of this tool, I'm trying hard (but not as hard as I possibly can) to prevent this from happening too much.
+If I fail, I guess this will be at least well named :)
 
 ## Dependencies
 - the Python dependencies listed in [`dependencies.txt`](dependencies.txt)
