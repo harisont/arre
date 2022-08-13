@@ -39,10 +39,11 @@ A collection of quick-and-dirty Python script to download and transcribe [trials
    ```
    where `SEGMENT_START` and `SEGMENT_END` are floating-point numbers, and, similarly,
    ```
-   python transcribe.py CMD WAV_PATH SEGMENT_START SEGMENT_END
+   python transcribe.py CMD WAV_PATH SEGMENT_START SEGMENT_END [--no-punct]
    ```
    where `CMD` can be `google` or `sphinx`. Note that:
    - `google` uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
    - `sphinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it is highly configurable, it supports custom keywords and it even works offline! In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
+   By default, the system will try to restore punctuation using [a pretty cool, rather recent Python package](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction). If you find this unhelpful, you can add the `--no-punct` flag __after the `SEGMENT_START` and `SEGMENT_END` arguments__ (quick-and-dirty means, among other things, that I decided not to waste my time with `argparse`)
 5. TODO: transcribe a trial!
 6. TODO: generate the PDF
