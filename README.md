@@ -61,8 +61,8 @@ If I fail, I guess this will be at least well named :)
     python segmetn.py CMD WAV_PATH(s)
     ```
     Here, `CMD` is used to specify the segmentation method. The available methods are:
-       - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
-       - `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
+      - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
+      - `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
 4. (optional) Test the different transcription methods __on individual segments__ using [`play.py`](play.py) and [`transcribe.py`](transcribe.py). Usage is as follows:
    ```
    python play.py WAV_PATH SEGMENT_START SEGMENT_END    # play the given segment
