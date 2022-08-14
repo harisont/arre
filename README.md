@@ -32,7 +32,7 @@ In the development of this tool, I'm trying hard (but not as hard as I possibly 
 If I fail, I guess this will be at least well named :)
 
 ## Dependencies
-This program requires the Python dependencies listed in [`dependencies.txt`](dependencies.txt) and some external software tools:
+This program requires the Python dependencies listed in [`requirements.txt`](requirements.txt) and some external software tools:
 
 - ffmpeg
 - an audio player (__at the moment, only VLC is supported__)
@@ -41,7 +41,7 @@ This program requires the Python dependencies listed in [`dependencies.txt`](dep
 Note that this program has only been tested on Manjaro Linux. Eventually, it will also run on Ubuntu and Windows.
 
 ## Setup
-1. Install the above listed dependencies
+1. Install the above listed dependencies. There's a whole lot of "interesting" Python packages in use, so using a [Python virtual environment](https://python.land/virtual-environments/virtualenv) is highly recommended, even if I haven't done so myself
 2. If you want to try using Sphinx for transcriptions (not recommended):
    1. [download the language models for Italian](https://drive.google.com/file/d/0Bw_EqP-hnaFNSXUtMm8tRkdUejg/view?resourcekey=0-9IOo0qEMHOAR3z6rzIqgBg) to the [`models`](models/) directory
    2. install them by running
@@ -67,7 +67,7 @@ Note that this program has only been tested on Manjaro Linux. Eventually, it wil
     Here, `CMD` is used to specify the segmentation method. The available methods are:
       - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
       - `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
-4. (optional) Ttranscribe the trial with [`transcribe.py`](transcribe.py). Usage is as follows:
+4. Interactively transcribe the trial with [`transcribe.py`](transcribe.py)! Usage is as follows:
    ```
    python transcribe.py CMD WAV_PATH [--no-punct]
    ```
