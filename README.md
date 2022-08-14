@@ -41,8 +41,9 @@ This program requires the Python dependencies listed in [`requirements.txt`](req
 Note that this program has only been tested on Manjaro Linux. Eventually, it will also run on Ubuntu and Windows.
 
 ## Setup
-1. Install the above listed dependencies. There's a whole lot of "interesting" Python packages in use, so using a [Python virtual environment](https://python.land/virtual-environments/virtualenv) is highly recommended, even if I haven't done so myself
-2. If you want to try using Sphinx for transcriptions (not recommended):
+1. Clone this repository§
+2. Install the above listed dependencies. There's a whole lot of "interesting" Python packages in use, so using a [Python virtual environment](https://python.land/virtual-environments/virtualenv) is highly recommended, even if I haven't done so myself
+3. If you want to try using Sphinx for transcriptions (not recommended):
    1. [download the language models for Italian](https://drive.google.com/file/d/0Bw_EqP-hnaFNSXUtMm8tRkdUejg/view?resourcekey=0-9IOo0qEMHOAR3z6rzIqgBg) to the [`models`](models/) directory
    2. install them by running
         ```
@@ -50,32 +51,64 @@ Note that this program has only been tested on Manjaro Linux. Eventually, it wil
         ```
 
 ## Usage
-1. Download the MP3 file(s) with [`download.py`](download.py) to the `data` folder. Run
-    ```
-    python download.py WEBPAGE_URL(s)
-    ```
-   where `WEBPAGE_URL` is a Radio Radicale URL containing an RTSP stream, such as [this one](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra).
-   This is a very long process, as most audio files are not directly available for download anymore, making it necessary to "record" them with [ffmpeg](https://pypi.org/project/python-ffmpeg/). So, downloading a 1h30m file takes approximately 1h30m.
-2. Convert them to WAV with [`convert.py`](convert.py), i.e. run
-    ```
-    python convert.py MP3_PATH(s)
-    ```
-3. Segment the WAV files [`segment.py`](segment.py), running
-    ```
-    python segmetn.py CMD WAV_PATH(s)
-    ```
-    Here, `CMD` is used to specify the segmentation method. The available methods are:
-      - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
-      - `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
-4. Interactively transcribe the trial with [`transcribe.py`](transcribe.py)! Usage is as follows:
-   ```
-   python transcribe.py CMD WAV_PATH [--no-punct]
-   ```
-   where `CMD` can be `google` or `sphinx`. 
-   This is an interactive process: segment by segment, you will be able to listen to read the automatic transcription of the trial and make corrections and adjustments. Each segment's transcription is stored in a separate file, named `START-STOP.txt`, so that you can quit the program at any time to then continue from the following segment.
-   Guidelines on how to transcribe are given in [`transcribing.md`](transcribing.md).
-   Note that:
-   - `google` uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
-   - `sphinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it is highly configurable, it supports custom keywords and it even works offline! In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
-   By default, the system will try to restore punctuation using [a pretty cool, rather recent Python package](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction). If you find this unhelpful, you can add the `--no-punct` flag __after the `SEGMENT_START` and `SEGMENT_END` arguments__ (quick-and-dirty means, among other things, that I decided not to waste my time with `argparse`).
-5. TODO: generate the PDF
+
+### Downloading audio recordings
+If the recordings you are interested in are still available for download, you can safely skip this step. Just create a `data` folder inside `arre` and download them there.
+
+In most cases, however, audio recordings will no longer be directly available for download, making it necessary to "record" streams [ffmpeg](https://pypi.org/project/python-ffmpeg/). To this end, use [`download.py`](download.py). The audio files will be saved to an automatically created `data` folder. 
+
+Inside the `arre` folder, run
+
+```
+python download.py WEBPAGE_URL(s)
+```
+
+where `WEBPAGE_URL` is the URL of a Radio Radicale page containing an RTSP stream, such as [this one](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra).
+
+Be patient: the program is "recording" an audio stream, so "downloading" a 1h30m file takes approximately 1h30m.
+
+### Converting MP3s to WAV
+Most audio recording are available in MP3 format. However, some processing steps may require them to be in WAV. To be on the safe side, run [`convert.py`](convert.py) on any MP3 file you intend to transcribe:
+
+```
+python convert.py MP3_PATH(s)
+```
+
+### Segmenting audio files
+Smart segmentation of audio files is a necessary preliminary step for the interactive transcription process.
+It allows to:
+
+- work on more manageable, short chunks of audio + text (without truncating words and generally pausing in at too weird points in time)
+- remove non-speech segments which would otherwise slow down the speech recognition and potentially confuse it
+- ideally divide the audio files into segments based on who speaks when (speaker diarization). Unfortunately, this is proving to be practically unfeasible on an average laptop
+
+To segment the files, use [`segment.py`](segment.py). Usage is as follows:
+
+```
+python segment.py CMD WAV_PATH(s)
+```
+
+Here, `CMD` is used to specify the segmentation method. Currently, two segmentation strategies have been implemented:
+
+- `simple-segment` (__fast, recommended__): simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter)
+- `diarize` (very slow and therefore still __untested__): speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) 
+
+### Transcribing
+The next and most crucial step is transcribing an audio file.
+To initiate the transcription process, run [`transcribe.py`](transcribe.py):
+
+```
+python transcribe.py CMD WAV_PATH [--no-punct]
+```
+
+`CMD` is again used to indicate the preferred transcription method, either `google` or `sphinx`:
+
+- `google` (__recommended__) uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
+- `sphinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is also a great, if not better tool for the job: it is highly configurable, supports custom keywords and even works offline! In practice, unfortunately, it never understands a thing (i.e. I consistently get `UnknownValueError` exceptions). You're very welcome to show me what I am doing wrong.
+
+By default, the system will also try to restore punctuation using [fullstop](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction). If you find this more disruptive than useful, you can disable fullstop adding the `--no-punct` flag _after the `SEGMENT_START` and `SEGMENT_END` arguments_ (quick-and-dirty scripting means, among other things, that I decided not to waste my time with `argparse`).
+
+Transcription is is an interactive process: segment by segment, you will be able to listen to an audio chunk, read the automatic transcription and editing it to make all the necessary corrections and adjustments. Before getting started, read more about it [here](transcribing.md).
+
+### Generating the PDF
+TBA
