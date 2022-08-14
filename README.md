@@ -8,7 +8,7 @@ The final product should be a relatively user-friendly tool that:
 - [x] downloads the apparently undownloadable audio recordings of the debates
 - [x] breaks them down into more manageable chunks, separating speech from non-speech segments (stretch goal: diarization)
 - [x] provides a decent first draft of a transcript (stretch goal: punctuation restoration). Results are by no means expected to be perfect, but they should be helpful rather than confusing like Radio Radicale's automatic captions
-- [ ] allows users to interactively refine the transcript (stretch goal: making the system "learn", to some extent and not necessarily as in "machine learning", from past mistakes)
+- [x] allows users to interactively refine the transcript (stretch goal: making the system "learn", to some extent and not necessarily as in "machine learning", from past mistakes)
 - [ ] generates LaTeX code to easily obtain the transcription as a nicely typeset PDF 
 
 For these reasons, I tried to keep the following in mind:
