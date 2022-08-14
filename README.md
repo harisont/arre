@@ -32,9 +32,13 @@ In the development of this tool, I'm trying hard (but not as hard as I possibly 
 If I fail, I guess this will be at least well named :)
 
 ## Dependencies
-- the Python dependencies listed in [`dependencies.txt`](dependencies.txt)
-- `ffmpeg`
-- `unzip` (only if you are trying to transcribe with Sphinx, see below)
+This program requires the Python dependencies listed in [`dependencies.txt`](dependencies.txt) and some external software tools:
+
+- ffmpeg
+- an audio player (__at the moment, only VLC is supported__)
+- a text editor (__at the moment, only Mousepad is supported__)
+
+Note that this program has only been tested on Manjaro Linux. Eventually, it will also run on Ubuntu and Windows.
 
 ## Setup
 1. Install the above listed dependencies
@@ -63,17 +67,15 @@ If I fail, I guess this will be at least well named :)
     Here, `CMD` is used to specify the segmentation method. The available methods are:
       - `diarize`: speaker diarization with [pyannote-audio](https://github.com/pyannote/pyannote-audio) (way too slow to be suitable for a laptop with no GPU and therefore untested)
       - `simple-segment`: simple speech-nonspeech segmentation with [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) (fast)
-4. (optional) Test the different transcription methods __on individual segments__ using [`play.py`](play.py) and [`transcribe.py`](transcribe.py). Usage is as follows:
+4. (optional) Ttranscribe the trial with [`transcribe.py`](transcribe.py). Usage is as follows:
    ```
-   python play.py WAV_PATH SEGMENT_START SEGMENT_END    # play the given segment
+   python transcribe.py CMD WAV_PATH [--no-punct]
    ```
-   where `SEGMENT_START` and `SEGMENT_END` are floating-point numbers, and, similarly,
-   ```
-   python transcribe.py CMD WAV_PATH SEGMENT_START SEGMENT_END [--no-punct]
-   ```
-   where `CMD` can be `google` or `sphinx`. Note that:
+   where `CMD` can be `google` or `sphinx`. 
+   This is an interactive process: segment by segment, you will be able to listen to read the automatic transcription of the trial and make corrections and adjustments. Each segment's transcription is stored in a separate file, named `START-STOP.txt`, so that you can quit the program at any time to then continue from the following segment.
+   Guidelines on how to transcribe are given in [`transcribing.md`](transcribing.md).
+   Note that:
    - `google` uses Google Speech Recognition (not to be confused with the more advanced, paid [Google Cloud Speech API](https://cloud.google.com/speech/)). It has a fairly good language model for Italian and requires a working internet connection
    - `sphinx` uses [CMUSphinx](https://cmusphinx.github.io/wiki/). On paper, this is a better tool for the job: it is highly configurable, it supports custom keywords and it even works offline! In practice, unfortunately, I could never get it to work despite doing all the necessary boring setup described above. You're very welcome to show me what I am doing wrong.
-   By default, the system will try to restore punctuation using [a pretty cool, rather recent Python package](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction). If you find this unhelpful, you can add the `--no-punct` flag __after the `SEGMENT_START` and `SEGMENT_END` arguments__ (quick-and-dirty means, among other things, that I decided not to waste my time with `argparse`)
-5. TODO: transcribe a trial!
-6. TODO: generate the PDF
+   By default, the system will try to restore punctuation using [a pretty cool, rather recent Python package](https://github.com/oliverguhr/fullstop-deep-punctuation-prediction). If you find this unhelpful, you can add the `--no-punct` flag __after the `SEGMENT_START` and `SEGMENT_END` arguments__ (quick-and-dirty means, among other things, that I decided not to waste my time with `argparse`).
+5. TODO: generate the PDF
