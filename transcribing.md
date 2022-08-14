@@ -49,7 +49,9 @@ Inoltre, D'Amico ha riferito che l'amico dell'imputato...
 ```
 
 ### Speakers
-On top of this, whenever there is a change of speaker, you should mark it by writing their name, preceeded by a `#` sign, in the preceeding (otherwise empty) line as in the following example:
+On top of this, whenever there is a change of speaker, you should mark it by writing their name, preceeded by a `#` sign, in the preceeding (otherwise empty) line.
+
+#### Example
 
 ```
 #Presidente
