@@ -19,7 +19,7 @@ def diarize_pa(audio_path):
     return segments
 
 '''Write segments to a .csv file with the given title'''
-def segments_to_csv_pa(title, segments):
+def segments_to_csv(title, segments):
     fields = ["label", "start", "stop"]
     with open(title + ".csv", 'w') as f:
         write = csv.writer(f, delimiter="\t")      
@@ -64,10 +64,16 @@ if __name__ == "__main__":
     for audio_path in sys.argv[2:]:
         if cmd == "diarize":
             segments = diarize_pa(audio_path)
-            segments_to_csv_pa(path.splitext(audio_path)[0], segments)
+            segments_to_csv(
+                path.join(path.dirname(audio_path),"segments"), 
+                segments
+                )
         elif cmd == "simple-segment":
             segments = refine_ina(segment_ina(audio_path))
-            segments_to_csv_pa(path.splitext(audio_path)[0], segments)
+            segments_to_csv(
+                path.join(path.dirname(audio_path),"segments"), 
+                segments
+                )
         else:
             print("Invalid segmentation method!")
         
