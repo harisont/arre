@@ -53,7 +53,15 @@ def prevent_errors(prev_errs, transcription):
 def restore_punctuation(transcription):
     return dmp.PunctuationModel().restore_punctuation(transcription)
 
-def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct=True, prev_errs={}):
+def interactive_transcribe_segment(
+        cmd, 
+        audio_path, 
+        txt_path, 
+        start, 
+        stop, 
+        punct=True,
+        prev_errs={}
+        ):
     # transcribe
     if cmd == "sphinx":
         transcription = transcribe_segment_sphinx(audio_path, start, stop)
