@@ -83,7 +83,11 @@ def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct
     # open txt file in text editor
     res = os.system("mousepad " + txt_path) # TODO: separate Windows command
     if res == 0:
-        return
+        next = input("Continue? y/n ")
+        if next in ["y", "Y", "yes"]:
+            return
+        else: 
+            exit(0)
 
 def interactive_transcribe_trial(cmd, audio_path, json_path, punct=True):
     # init preventable errors
