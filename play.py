@@ -4,6 +4,7 @@ import pyaudio
 import wave
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 # import vlc
+from config import AUDIO_PLAYER_CMD
 
 def play_segment(audio_path, start, stop):
     wav = wave.open(audio_path, 'rb')
@@ -26,8 +27,7 @@ def play_segment(audio_path, start, stop):
 def play_segment_vlc(audio_path, start, stop):
     segment_path = os.path.join(os.path.dirname(audio_path), 'tmp.wav')
     ffmpeg_extract_subclip(audio_path, start, stop, segment_path)
-    # TODO: separate Windows command
-    os.system("nohup vlc --loop " + segment_path + " &") 
+    os.system(AUDIO_PLAYER_CMD.replace("SEGMENT_PATH", segment_path)) 
 
     # tried using vlc lib but did not manage to launch with UI. Same with MPV
     '''

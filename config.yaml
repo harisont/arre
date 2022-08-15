@@ -1,0 +1,2 @@
+audio_player_cmd: "nohup vlc --loop SEGMENT_PATH &"
+text_editor_cmd: "mousepad TXT_PATH"

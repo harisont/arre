@@ -1,3 +1,4 @@
+from distutils.command.config import config
 import os
 import sys
 from matplotlib import interactive
@@ -6,6 +7,7 @@ import deepmultilingualpunctuation as dmp
 import csv
 from play import play_segment_vlc
 import preventable_errors as pe
+from config import TXT_EDITOR_CMD
 
 def transcribe_segment_sphinx(audio_path, start, stop, hints=[]):
     r = sr.Recognizer()
@@ -89,7 +91,7 @@ def interactive_transcribe_segment(
     play_segment_vlc(audio_path, start, stop) 
 
     # open txt file in text editor
-    res = os.system("mousepad " + txt_path) # TODO: separate Windows command
+    res = os.system(TXT_EDITOR_CMD.replace("TXT_PATH", txt_path))
     if res == 0:
         next = input("Continue? y/n ")
         if next in ["y", "Y", "yes"]:
