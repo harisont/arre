@@ -172,7 +172,7 @@ cython_debug/
 *.zip
 
 # Transcriptions
-data/*.txt
+*.txt
 
 # Logs 
 nohup.out
