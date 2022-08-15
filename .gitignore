@@ -163,7 +163,7 @@ cython_debug/
 *.mp3
 *.wav
 
-# Data
+# Data files
 *.csv
 *.tsv
 *.json
@@ -171,8 +171,8 @@ cython_debug/
 # Langmodels and other heavy stuff
 *.zip
 
-# Transcriptions
-data/*.txt
+# Data folder
+data/*
 
 # Logs 
 nohup.out
