@@ -19,7 +19,7 @@ You can always go back to a segment file later (to play a specific segment, you 
 When editing an automatic transcription, you should of course add/replace any missing/incorrect words.
 
 ### Replacements
-If you notice that a word that is likely to reoccur, for example a surname like "D'Amico", is consistently wrongly transcribed, e.g. as "l'amico", you can mark it as a "preventable error". 
+If you notice that a word/phrase that is likely to reoccur, for example a surname like "D'Amico", is consistently wrongly transcribed, e.g. as "l'amico", you can mark it as a "preventable error". 
 If you want to do so, instead of replacing it, add the correction preceded by a `>` in square brackets, as in the example below.
 In this way, the correction will be used as a suggestion to the human transcriber whenever the sequence "l'amico" occurs again. Unfortunately, Google Speech Recognition itself cannot be informed that "D'Amico" is a preferred keyword and retraining the model to make it actually learn from past mistakes is absolutely unfeasible.
 
