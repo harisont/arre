@@ -5,6 +5,7 @@ import speech_recognition as sr
 import deepmultilingualpunctuation as dmp
 import csv
 from play import play_segment_vlc
+import preventable_errors as pe
 
 def transcribe_segment_sphinx(audio_path, start, stop, hints=[]):
     r = sr.Recognizer()
@@ -40,10 +41,19 @@ def transcribe_segment_google(audio_path, start, stop):
         transcription = "(incomprensibile)"
     return transcription
 
+def prevent_errors(prev_errs, transcription):
+    for word in transcription.split():
+        if word in prev_errs.keys():
+            transcription.replace(
+                str(prev_errs[word].append(word)).replace(", ","|")
+                )
+    return transcription
+        
+
 def restore_punctuation(transcription):
     return dmp.PunctuationModel().restore_punctuation(transcription)
 
-def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct=True):
+def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct=True, prev_errs={}):
     # transcribe
     if cmd == "sphinx":
         transcription = transcribe_segment_sphinx(audio_path, start, stop)
@@ -52,6 +62,9 @@ def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct
     else:
         print("Invalid transcription method!")
         exit(1)
+
+    # apply preventable error suggestions
+    transcription = prevent_errors(prev_errs, transcription)
 
     # restore punctuation
     if punct:
@@ -72,7 +85,12 @@ def interactive_transcribe_segment(cmd, audio_path, txt_path, start, stop, punct
     if res == 0:
         return
 
-def interactive_transcribe_trial(cmd, audio_path, punct=True):
+def interactive_transcribe_trial(cmd, audio_path, json_path, punct=True):
+    # init preventable errors
+    prev_errs = {}
+    if os.path.exists(json_path):
+        prev_errs = pe.read_prev_errs(json_path) 
+
     # read segments from CSV
     csv_path = os.path.join(os.path.dirname(audio_path), "segments.csv")
     with open(csv_path) as f:
@@ -84,14 +102,24 @@ def interactive_transcribe_trial(cmd, audio_path, punct=True):
             )
             if not os.path.exists(txt_path): # start where you left off
                 if label == "speech":
+
+                    # do the autotranscribing
                     interactive_transcribe_segment(
                         cmd, 
                         audio_path, 
                         txt_path,
                         float(start_str), 
                         float(stop_str), 
-                        punct
+                        punct,
+                        prev_errs
                         )
+
+                    # update preventable errors
+                    prev_errs = pe.extract_prev_errs(
+                        prev_errs, 
+                        txt_path, 
+                        json_path)
+                    
                 elif label == "pause": # TODO: make pauses human-checkable
                     pass
         
@@ -99,5 +127,6 @@ def interactive_transcribe_trial(cmd, audio_path, punct=True):
 if __name__ == "__main__":
     cmd = sys.argv[1]
     audio_path = sys.argv[2]
-    interactive_transcribe_trial(cmd, audio_path)
+    json_path = os.path.join(os.path.dirname(audio_path), "prev_errs.json")
+    interactive_transcribe_trial(cmd, audio_path, json_path)
         

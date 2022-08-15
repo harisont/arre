@@ -163,9 +163,10 @@ cython_debug/
 *.mp3
 *.wav
 
-# CSVs
+# Data
 *.csv
 *.tsv
+*.json
 
 # Langmodels and other heavy stuff
 *.zip
