@@ -34,6 +34,7 @@ If I fail, I guess this will be at least well named :)
 ## Dependencies
 This program requires the Python dependencies listed in [`requirements.txt`](requirements.txt) and some external software tools:
 
+- Python 3
 - ffmpeg
 - an audio player (__at the moment, only VLC is supported__)
 - a text editor (__at the moment, only Mousepad is supported__)
