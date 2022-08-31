@@ -41,7 +41,7 @@ This program requires the Python dependencies listed in [`requirements.txt`](req
 Note that this program has only been tested on Manjaro Linux. Eventually, it will also run on Ubuntu and Windows.
 
 ## Setup
-1. Clone this repository§
+1. Clone this repository
 2. Install the above listed dependencies. There's a whole lot of "interesting" Python packages in use, so using a [Python virtual environment](https://python.land/virtual-environments/virtualenv) is highly recommended, even if I haven't done so myself
 3. If you want to try using Sphinx for transcriptions (not recommended):
    1. [download the language models for Italian](https://drive.google.com/file/d/0Bw_EqP-hnaFNSXUtMm8tRkdUejg/view?resourcekey=0-9IOo0qEMHOAR3z6rzIqgBg) to the [`models`](models/) directory
