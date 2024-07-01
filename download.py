@@ -1,61 +1,34 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-from ffmpeg import FFmpeg
-import asyncio
 import sys
 import os
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import mpv
 
 DATA_FOLDER = "data"
-TMP = "tmp.mp3"
 
 '''Given a trial webpage url, return the URL of the audio
 stream it contains and its title'''
 def get_stream(webpage_url):
-    soup = BeautifulSoup(urlopen(webpage_url).read())
-    a = soup.find(title="Player")
-    return a.get("href"), soup.title.string
+    soup = BeautifulSoup(urlopen(webpage_url).read(), features="html.parser")
+    streams = soup.find_all(title="Player")
+    return [stream.get("href") for stream in streams], soup.title.string
 
 '''Given a stream title and url, write the stream's audio contents to an 
-mp3 file with FFMPEG'''
+mp3 file with mpv'''
 def download_rtsp(stream_url, title):
     subdir_path = os.path.join(DATA_FOLDER, title)
     if not os.path.isdir(subdir_path): os.makedirs(subdir_path)
-    ffmpeg = FFmpeg().input(
-        stream_url,
-    ).output(
-        TMP,
-        {'codec:v': 'copy'},
-    )
-
-    @ffmpeg.on('start')
-    def on_start(arguments):
-        print('Started stream download...')
-
-    @ffmpeg.on('stderr')
-    def on_stderr(line):
-        print('stderr:', line)
-
-    @ffmpeg.on('progress')
-    def on_progress(progress):
-        print(progress)
-
-    @ffmpeg.on('completed')
-    def on_completed():
-        print('Completed stream download!')
-
-    @ffmpeg.on('terminated')
-    def on_terminated():
-        print('Terminated stream download.')
-
-    @ffmpeg.on('error')
-    def on_error(code):
-        print('Error: ', code)
-
-    asyncio.run(ffmpeg.execute())
-    os.rename(TMP, os.path.join(subdir_path, 'full_audio.mp3'))
+    player = mpv.MPV(
+        stream_record = os.path.join(subdir_path, os.path.basename(stream_url)))
+    player.play(stream_url)
+    player.wait_for_playback()
 
 if __name__ == "__main__":
     if not os.path.isdir(DATA_FOLDER): os.mkdir(DATA_FOLDER)
-    for webpage_url in sys.argv[1:]:
-        stream_url, title = get_stream(webpage_url)
-        download_rtsp(stream_url,title)
+    webpage_urls = sys.argv[1:]
+    for (i,webpage_url) in enumerate(webpage_urls):
+        print("parsing page {} of {}...".format(i + 1, len(webpage_urls)))
+        stream_urls, title = get_stream(webpage_url)
+        for (i,stream_url) in enumerate(stream_urls):
+            print("recording track {} of {}...".format(i + 1, len(stream_urls)))
+            download_rtsp(stream_url,title)

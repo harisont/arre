@@ -1,0 +1,3 @@
+language: it (italiano)
+example transcript: Va bene, detto questo, Licciardi e Manno sono presenti entrambi. Prestifilippo Giovanni, Prestifilippo Santo, Ferrera Giuseppe, Trapani Nicolò, La Rosa Giuseppe...
+glossary: Giuseppe Grillo, Maxiprocesso, Cosa Nostra, Mafia, Avvocato, avvocatura, imputati
