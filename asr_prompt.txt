@@ -1,3 +1,0 @@
-language: Italian
-example transcript: Va bene, detto questo, Licciardi e Manno sono presenti entrambi. Ehhhh... poi, l'avvocato Barillà é presente. Buonasera a lei. L'avvocato Morello é presente, l'avvocato Minaglia é presente... 
-glossary: Giuseppe Grillo, Maxiprocesso, Cosa Nostra, Mafia, Avvocato Silvia Calderoni

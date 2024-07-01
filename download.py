@@ -10,8 +10,8 @@ DATA_FOLDER = "data"
 stream it contains and its title'''
 def get_stream(webpage_url):
     soup = BeautifulSoup(urlopen(webpage_url).read(), features="html.parser")
-    a = soup.find(title="Player")
-    return a.get("href"), soup.title.string
+    streams = soup.find_all(title="Player")
+    return [stream.get("href") for stream in streams], soup.title.string
 
 '''Given a stream title and url, write the stream's audio contents to an 
 mp3 file with mpv'''
@@ -19,13 +19,16 @@ def download_rtsp(stream_url, title):
     subdir_path = os.path.join(DATA_FOLDER, title)
     if not os.path.isdir(subdir_path): os.makedirs(subdir_path)
     player = mpv.MPV(
-        # TODO: adapt for non-mp3 files (from stream extension)
-        stream_record = os.path.join(subdir_path, 'audio.mp3'))
+        stream_record = os.path.join(subdir_path, os.path.basename(stream_url)))
     player.play(stream_url)
     player.wait_for_playback()
 
 if __name__ == "__main__":
     if not os.path.isdir(DATA_FOLDER): os.mkdir(DATA_FOLDER)
-    for webpage_url in sys.argv[1:]:
-        stream_url, title = get_stream(webpage_url)
-        download_rtsp(stream_url,title)
+    webpage_urls = sys.argv[1:]
+    for (i,webpage_url) in enumerate(webpage_urls):
+        print("parsing page {} of {}...".format(i + 1, len(webpage_urls)))
+        stream_urls, title = get_stream(webpage_url)
+        for (i,stream_url) in enumerate(stream_urls):
+            print("recording track {} of {}...".format(i + 1, len(stream_urls)))
+            download_rtsp(stream_url,title)
