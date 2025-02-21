@@ -2,7 +2,7 @@
 A collection of Python scripts to download and transcribe [recordings from the Radio Radicale archive](https://www.radioradicale.it/processi).
 
 ## Motivation
-These scripts were written to facilitate a family project in the context of which we want to transcribe some of the arguments of my grandfather, lawyer Giuseppe Grillo.
+These scripts were written to facilitate a family project in the context of which we want to transcribe some of the arguments of my grandfather, lawyer Giuseppe Grillo (see status [here](status.md)).
 Many important trials were aired on Radio Radicale and are now part of its archive.
 
 The Radio Radicale website, however, no longer allows downloading the relevant audio tracks and its responsibles have not answered our repeated requests to obtain the files at hand, forcing us to ["record" the corresponding audio streams](#downloading-audio-recordings-from-radioradicaleit).
@@ -10,7 +10,7 @@ The Radio Radicale website, however, no longer allows downloading the relevant a
 In addition, most recordings are at least one hour long, making it necessary for us to start from an automatic transcript (see [Transcribing audio recordings](#transcribing-audio-recordings)).
 
 ## Requirements
-- Python 3.12 (other Python 3 versions might work too, but have not been tested)
+- Python 3.13 (other Python 3 versions might work too, but have not been tested)
 - the [mpv](https://mpv.io/installation/) media player (necessary for the download step)
 
 ## Setup
