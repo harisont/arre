@@ -1,7 +1,5 @@
-# Transcription project status
-
 ## [Processo per lo scandalo dell'Ospedale Psichiatrico di Agrigento (Agrigento 1996-97)](https://www.radioradicale.it/processi/681/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 | [25 ottobre 1996 file 1](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
 | [25 ottobre 1996 file 2](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
@@ -21,7 +19,7 @@
 
 ## Maxiprocesso a "Cosa Nostra" (Palermo 1986-90)
 
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 | [25 giugno 1986 file 1](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) | ✔ |
 | [25 giugno 1986 file 2](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) | 
@@ -43,57 +41,57 @@
 | [12 luglio 1990 file 3](https://www.radioradicale.it/scheda/36589/appello-maxiprocesso-a-cosa-nostra-i-troncone?i=2603680) | 
 
 ## Processo per la strage di Capaci, omicidio Falcone (Caltanissetta 1996-2000)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Borsellino TER processo per la strage di via D'Amelio, omicidio Borsellino (Caltanissetta 1999-2001)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Processo per gli scempi edilizi nella Valle dei Templi (Agrigento 2000-2001)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Convegno "La questione giustizia oggi" (Agrigento 1987)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Assemblea Camera Penale di Palermo (Palermo 1994)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Congresso Forense Castel Capuano (? 1999)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Congresso straordinario Unione Camere Penali (Roma 1999)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Congresso Unione Camere Penali (Cattolica 2000)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Congresso Unione Camere Penali (Sirmione 2002)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Convegno in Memoria di R. Livatino (Agrigento 2002)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Inaugurazione anno giudiziario (Palermo 2003)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## 27 Congresso Avvocatura Italiana (Palermo 2003)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## 5 Convegno in Memoria di R. Livatino (Agrigento 2003)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
 
 ## Inaugurazione anno giudiziario (Palermo 2004)
-| traccia | download | trascrizione | correzione | impaginatura | rilettura |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
