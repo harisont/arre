@@ -1,11 +1,11 @@
 ## [Processo per lo scandalo dell'Ospedale Psichiatrico di Agrigento (Agrigento 1996-97)](https://www.radioradicale.it/processi/681/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)
-| traccia | download | trascrizione | correzione | impaginazione | rilettura |
-| --- | --- | --- | --- | --- | --- |
-| [25 ottobre 1996 file 1](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [25 ottobre 1996 file 2](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [30 novembre 1996 file 1](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
+| traccia | download | trascrizione | correzione | impaginazione | rilettura | annotazioni |
+| --- | --- | --- | --- | --- | --- | --- |
+| [25 ottobre 1996 file 1](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✗ | ✗ | ✗ | ✗ | ✗ | completamente corrotto (rumore bianco) |
+| [25 ottobre 1996 file 2](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✗ | ✗ | ✗ | ✗ | ✗ | completamente corrotto (rumore bianco) |
+| [30 novembre 1996 file 1](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |  |  |  |  |  | no interventi GG |
 | [30 novembre 1996 file 2](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [18 gennaio 1996 file 1](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
+| [18 gennaio 1996 file 1](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |  |  |  |  |  | parzialmente corrotto (audio distorto verso l'inizio) |
 | [18 gennaio 1996 file 2](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
 | [18 gennaio 1996 file 3](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
 | [21 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
