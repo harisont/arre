@@ -3,15 +3,15 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [25 ottobre 1996 file 1](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✗ | ✗ | ✗ | ✗ | ✗ | completamente corrotto (rumore bianco) |
 | [25 ottobre 1996 file 2](https://www.radioradicale.it/scheda/89758/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✗ | ✗ | ✗ | ✗ | ✗ | completamente corrotto (rumore bianco) |
-| [30 novembre 1996 file 1](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |  |  |  |  |  | no interventi GG |
-| [30 novembre 1996 file 2](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [18 gennaio 1996 file 1](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |  |  |  |  |  | parzialmente corrotto (audio distorto verso l'inizio) |
-| [18 gennaio 1996 file 2](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [18 gennaio 1996 file 3](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [21 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [21 gennaio 1997 file 2](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [24 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89715/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
-| [31 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
+| [30 novembre 1996 file 1](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |  |  |  |  | no interventi GG |
+| [30 novembre 1996 file 2](https://www.radioradicale.it/scheda/89759/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |  |  |  |  | no interventi GG |
+| [18 gennaio 1996 file 1](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |  |  |  |  | 1 breve intervento GG (5 min verso la fine) |
+| [18 gennaio 1996 file 2](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |
+| [18 gennaio 1996 file 3](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |
+| [21 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |
+| [21 gennaio 1997 file 2](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |
+| [24 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89715/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |  |  |  |  | 4 minuti: NG richiede rinvio in vece di GG |
+| [31 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) | ✔ |  |  |  |  | intervento lungo GG |
 | [31 gennaio 1997 file 2](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
 | [1 febbraio 1997 file 1](https://www.radioradicale.it/scheda/89717/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
 | [1 febbraio 1997 file 2](https://www.radioradicale.it/scheda/89717/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento) |
