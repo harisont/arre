@@ -10,7 +10,7 @@ The Radio Radicale website, however, no longer allows downloading the relevant a
 In addition, most recordings are at least one hour long, making it necessary for us to start from an automatic transcript (see [Transcribing audio recordings](#transcribing-audio-recordings)).
 
 ## Requirements
-- Python 3.13 (other Python 3 versions might work too, but have not been tested)
+- Python 3.11 or 3.13 (other Python 3 versions might work too, but have not been tested)
 - the [mpv](https://mpv.io/installation/) media player (necessary for the download step)
 
 ## Setup
