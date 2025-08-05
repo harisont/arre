@@ -1,1031 +1,863 @@
 1
-00:00:08,980 --> 00:00:09,480
-<font color="#00ff00">Sta</font> ilercito agli Avvocati,
+00:00:15,740 --> 00:00:16,440
+<font color="#00ff00">Sì, anche</font> la gestione tiltando.
 
 2
-00:00:09,480 --> 00:00:09,660
-Sta <font color="#00ff00">ilercito</font> agli Avvocati,
+00:00:16,440 --> 00:00:16,480
+Sì, anche <font color="#00ff00">la</font> gestione tiltando.
 
 3
-00:00:09,660 --> 00:00:09,860
-Sta ilercito <font color="#00ff00">agli</font> Avvocati,
+00:00:16,480 --> 00:00:16,960
+Sì, anche la <font color="#00ff00">gestione</font> tiltando.
 
 4
-00:00:09,860 --> 00:00:10,400
-Sta ilercito agli <font color="#00ff00">Avvocati,</font>
+00:00:16,960 --> 00:00:17,200
+Sì, anche la gestione <font color="#00ff00">tiltando.</font>
 
 5
-00:00:10,920 --> 00:00:20,040
-<font color="#00ff00">OMICAMPEMARUTIDI行</font> Mapro, Marathina dishes A pl
+00:00:30,400 --> 00:00:30,760
+<font color="#00ff00">avvocato</font> Nicola Grillo in sostituzione dell'avvocato Giuseppe Grillo.
 
 6
-00:00:20,040 --> 00:00:25,120
-OMICAMPEMARUTIDI行 <font color="#00ff00">Mapro, Marathina dishes A pl</font>
+00:00:30,760 --> 00:00:31,140
+avvocato <font color="#00ff00">Nicola</font> Grillo in sostituzione dell'avvocato Giuseppe Grillo.
 
 7
-00:00:26,480 --> 00:00:26,920
-<font color="#00ff00">presenta</font> l'avvocato Nicola Grillo,
+00:00:31,140 --> 00:00:31,540
+avvocato Nicola Grillo in sostituzione dell'avvocato Giuseppe Grillo.
 
 8
-00:00:26,920 --> 00:00:27,300
-presenta <font color="#00ff00">l</font>'avvocato Nicola Grillo,
+00:00:31,540 --> 00:00:31,640
+avvocato Nicola <font color="#00ff00">Grillo</font> in sostituzione dell'avvocato Giuseppe Grillo.
 
 9
-00:00:27,300 --> 00:00:27,840
-presenta l<font color="#00ff00">'avvocato</font> Nicola Grillo,
+00:00:31,640 --> 00:00:31,920
+avvocato Nicola Grillo <font color="#00ff00">in</font> sostituzione dell'avvocato Giuseppe Grillo.
 
 10
-00:00:27,840 --> 00:00:28,860
-presenta l'avvocato <font color="#00ff00">Nicola</font> Grillo,
+00:00:31,920 --> 00:00:32,980
+avvocato Nicola Grillo in <font color="#00ff00">sostituzione</font> dell'avvocato Giuseppe Grillo.
 
 11
-00:00:28,860 --> 00:00:29,320
-presenta l'avvocato Nicola <font color="#00ff00">Grillo,</font>
+00:00:32,980 --> 00:00:33,180
+avvocato Nicola Grillo in sostituzione <font color="#00ff00">dell</font>'avvocato Giuseppe Grillo.
 
 12
-00:00:29,500 --> 00:00:30,240
-<font color="#00ff00">presenta</font> l'avvocato Nicola Grillo in
+00:00:33,180 --> 00:00:33,680
+avvocato Nicola Grillo in sostituzione dell<font color="#00ff00">'avvocato</font> Giuseppe Grillo.
 
 13
-00:00:30,240 --> 00:00:30,340
-presenta <font color="#00ff00">l</font>'avvocato Nicola Grillo in
+00:00:33,680 --> 00:00:34,160
+avvocato Nicola Grillo in sostituzione dell'avvocato <font color="#00ff00">Giuseppe</font> Grillo.
 
 14
-00:00:30,340 --> 00:00:30,620
-presenta l<font color="#00ff00">'avvocato</font> Nicola Grillo in
+00:00:34,160 --> 00:00:34,780
+avvocato Nicola Grillo in sostituzione dell'avvocato Giuseppe <font color="#00ff00">Grillo.</font>
 
 15
-00:00:30,620 --> 00:00:30,960
-presenta l'avvocato <font color="#00ff00">Nicola</font> Grillo in
+00:00:39,420 --> 00:00:40,120
+<font color="#00ff00">Allora,</font>
 
 16
-00:00:30,960 --> 00:00:31,440
-presenta l'avvocato Nicola <font color="#00ff00">Grillo</font> in
+00:00:40,260 --> 00:00:40,300
+<font color="#00ff00">l</font>'avvocato Nicola Grillo deposita in cancelleria, no,
 
 17
-00:00:31,440 --> 00:00:31,840
-presenta l'avvocato Nicola Grillo <font color="#00ff00">in</font>
+00:00:40,300 --> 00:00:40,720
+l<font color="#00ff00">'avvocato</font> Nicola Grillo deposita in cancelleria, no,
 
 18
-00:00:31,840 --> 00:00:32,580
-<font color="#00ff00">costituzione</font> dell'avvocato Giuseppe Grillo.
+00:00:40,720 --> 00:00:41,100
+l'avvocato <font color="#00ff00">Nicola</font> Grillo deposita in cancelleria, no,
 
 19
-00:00:32,580 --> 00:00:33,080
-costituzione <font color="#00ff00">dell</font>'avvocato Giuseppe Grillo.
+00:00:41,100 --> 00:00:43,380
+l'avvocato Nicola <font color="#00ff00">Grillo</font> deposita in cancelleria, no,
 
 20
-00:00:33,080 --> 00:00:33,600
-costituzione dell<font color="#00ff00">'avvocato</font> Giuseppe Grillo.
+00:00:43,380 --> 00:00:44,040
+l'avvocato Nicola Grillo <font color="#00ff00">deposita</font> in cancelleria, no,
 
 21
-00:00:33,600 --> 00:00:34,060
-costituzione dell'avvocato <font color="#00ff00">Giuseppe</font> Grillo.
+00:00:44,040 --> 00:00:44,160
+l'avvocato Nicola Grillo deposita <font color="#00ff00">in</font> cancelleria, no,
 
 22
-00:00:34,060 --> 00:00:34,460
-costituzione dell'avvocato Giuseppe <font color="#00ff00">Grillo.</font>
+00:00:44,160 --> 00:00:45,580
+l'avvocato Nicola Grillo deposita in <font color="#00ff00">cancelleria, no,</font>
 
 23
-00:00:39,010 --> 00:00:39,860
-<font color="#00ff00">L</font>'avvocato Nicola Grillo deposita in cancelleria,
+00:00:46,320 --> 00:00:46,420
+<font color="#00ff00">questa</font> è l'indatta di oggi,
 
 24
-00:00:39,860 --> 00:00:40,560
-L<font color="#00ff00">'avvocato</font> Nicola Grillo deposita in cancelleria,
+00:00:46,420 --> 00:00:46,460
+questa <font color="#00ff00">è</font> l'indatta di oggi,
 
 25
-00:00:40,560 --> 00:00:40,900
-L'avvocato <font color="#00ff00">Nicola</font> Grillo deposita in cancelleria,
+00:00:46,460 --> 00:00:46,640
+questa è <font color="#00ff00">l</font>'indatta di oggi,
 
 26
-00:00:40,900 --> 00:00:41,320
-L'avvocato Nicola <font color="#00ff00">Grillo</font> deposita in cancelleria,
+00:00:46,640 --> 00:00:46,920
+questa è l<font color="#00ff00">'indatta</font> di oggi,
 
 27
-00:00:41,320 --> 00:00:43,960
-L'avvocato Nicola Grillo <font color="#00ff00">deposita</font> in cancelleria,
+00:00:46,920 --> 00:00:47,100
+questa è l'indatta <font color="#00ff00">di</font> oggi,
 
 28
-00:00:43,960 --> 00:00:44,120
-L'avvocato Nicola Grillo deposita <font color="#00ff00">in</font> cancelleria,
+00:00:47,100 --> 00:00:47,400
+questa è l'indatta di <font color="#00ff00">oggi,</font>
 
 29
-00:00:44,120 --> 00:00:44,880
-L'avvocato Nicola Grillo deposita in <font color="#00ff00">cancelleria,</font>
+00:00:49,120 --> 00:00:50,120
+<font color="#00ff00">deposita</font> in uvienza,
 
 30
-00:00:52,870 --> 00:00:53,420
-<font color="#00ff00">distanza</font> con la quale chiede
+00:00:50,120 --> 00:00:50,520
+deposita <font color="#00ff00">in</font> uvienza,
 
 31
-00:00:53,420 --> 00:00:53,640
-distanza <font color="#00ff00">con</font> la quale chiede
+00:00:50,520 --> 00:00:50,880
+deposita in <font color="#00ff00">uvienza,</font>
 
 32
-00:00:53,640 --> 00:00:53,780
-distanza con <font color="#00ff00">la</font> quale chiede
+00:00:52,900 --> 00:00:53,560
+<font color="#00ff00">istanza</font> con la quale chiede il rinvio della discussione ad altra
 
 33
-00:00:53,780 --> 00:00:54,000
-distanza con la <font color="#00ff00">quale</font> chiede
+00:00:53,560 --> 00:00:53,760
+istanza <font color="#00ff00">con</font> la quale chiede il rinvio della discussione ad altra
 
 34
-00:00:54,000 --> 00:00:54,550
-distanza con la quale <font color="#00ff00">chiede</font>
+00:00:53,760 --> 00:00:53,900
+istanza con <font color="#00ff00">la</font> quale chiede il rinvio della discussione ad altra
 
 35
-00:00:58,060 --> 00:00:58,400
-<font color="#00ff00">il</font> rinvio della
+00:00:53,900 --> 00:00:54,120
+istanza con la <font color="#00ff00">quale</font> chiede il rinvio della discussione ad altra
 
 36
-00:00:58,400 --> 00:00:58,740
-il <font color="#00ff00">rinvio</font> della
+00:00:54,120 --> 00:00:57,920
+istanza con la quale <font color="#00ff00">chiede</font> il rinvio della discussione ad altra
 
 37
-00:00:58,740 --> 00:00:59,040
-il rinvio <font color="#00ff00">della</font>
+00:00:57,920 --> 00:00:58,060
+istanza con la quale chiede il rinvio della discussione ad altra
 
 38
-00:00:59,520 --> 00:01:00,020
-<font color="#00ff00">discussione</font> ad altra udienza per notivi di salute.
+00:00:58,060 --> 00:00:58,500
+istanza con la quale chiede <font color="#00ff00">il</font> rinvio della discussione ad altra
 
 39
-00:01:00,020 --> 00:01:00,140
-discussione <font color="#00ff00">ad</font> altra udienza per notivi di salute.
+00:00:58,500 --> 00:00:58,900
+istanza con la quale chiede il <font color="#00ff00">rinvio</font> della discussione ad altra
 
 40
-00:01:00,140 --> 00:01:00,480
-discussione ad <font color="#00ff00">altra</font> udienza per notivi di salute.
+00:00:58,900 --> 00:00:59,160
+istanza con la quale chiede il rinvio <font color="#00ff00">della</font> discussione ad altra
 
 41
-00:01:00,480 --> 00:01:01,140
-discussione ad altra <font color="#00ff00">udienza</font> per notivi di salute.
+00:00:59,160 --> 00:01:00,020
+istanza con la quale chiede il rinvio della <font color="#00ff00">discussione</font> ad altra
 
 42
-00:01:01,140 --> 00:01:03,860
-discussione ad altra udienza <font color="#00ff00">per</font> notivi di salute.
+00:01:00,020 --> 00:01:00,300
+istanza con la quale chiede il rinvio della discussione <font color="#00ff00">ad</font> altra
 
 43
-00:01:03,860 --> 00:01:04,320
-discussione ad altra udienza per <font color="#00ff00">notivi</font> di salute.
+00:01:00,300 --> 00:01:00,580
+istanza con la quale chiede il rinvio della discussione ad <font color="#00ff00">altra</font>
 
 44
-00:01:04,320 --> 00:01:04,380
-discussione ad altra udienza per notivi di salute.
+00:01:01,360 --> 00:01:02,660
+<font color="#00ff00">uvienza</font>
 
 45
-00:01:04,380 --> 00:01:04,480
-discussione ad altra udienza per notivi <font color="#00ff00">di</font> salute.
+00:01:03,700 --> 00:01:04,000
+<font color="#00ff00">per</font> motivi di salute.
 
 46
-00:01:04,480 --> 00:01:04,700
-discussione ad altra udienza per notivi di <font color="#00ff00">salute.</font>
+00:01:04,000 --> 00:01:04,400
+per <font color="#00ff00">motivi</font> di salute.
 
 47
-00:01:08,760 --> 00:01:08,960
-<font color="#00ff00">Allega</font> certificato medico del 23 gennaio 1997,
+00:01:04,400 --> 00:01:04,660
+per motivi <font color="#00ff00">di</font> salute.
 
 48
-00:01:08,960 --> 00:01:09,680
-Allega <font color="#00ff00">certificato</font> medico del 23 gennaio 1997,
+00:01:04,660 --> 00:01:05,020
+per motivi di <font color="#00ff00">salute.</font>
 
 49
-00:01:09,680 --> 00:01:10,300
-Allega certificato <font color="#00ff00">medico</font> del 23 gennaio 1997,
+00:01:08,720 --> 00:01:09,080
+<font color="#00ff00">Allega</font> certificato medico del 23 gennaio 1997,
 
 50
-00:01:10,300 --> 00:01:16,740
-Allega certificato medico <font color="#00ff00">del</font> 23 gennaio 1997,
+00:01:09,080 --> 00:01:09,860
+Allega <font color="#00ff00">certificato</font> medico del 23 gennaio 1997,
 
 51
-00:01:16,740 --> 00:01:17,460
-Allega certificato medico del <font color="#00ff00">23</font> gennaio 1997,
+00:01:09,860 --> 00:01:13,660
+Allega certificato <font color="#00ff00">medico</font> del 23 gennaio 1997,
 
 52
-00:01:17,460 --> 00:01:18,300
-Allega certificato medico del 23 <font color="#00ff00">gennaio</font> 1997,
+00:01:13,660 --> 00:01:13,920
+Allega certificato medico del 23 gennaio 1997,
 
 53
-00:01:18,300 --> 00:01:19,020
-Allega certificato medico del 23 gennaio <font color="#00ff00">1997,</font>
+00:01:13,920 --> 00:01:17,180
+Allega certificato medico <font color="#00ff00">del</font> 23 gennaio 1997,
 
 54
-00:01:21,040 --> 00:01:21,940
-<font color="#00ff00">in</font> scuola di l'avvocato Nicola Grillo,
+00:01:17,180 --> 00:01:17,700
+Allega certificato medico del <font color="#00ff00">23</font> gennaio 1997,
 
 55
-00:01:21,940 --> 00:01:22,080
-in <font color="#00ff00">scuola</font> di l'avvocato Nicola Grillo,
+00:01:17,700 --> 00:01:18,480
+Allega certificato medico del 23 <font color="#00ff00">gennaio</font> 1997,
 
 56
-00:01:22,080 --> 00:01:22,600
-in scuola <font color="#00ff00">di l</font>'avvocato Nicola Grillo,
+00:01:18,480 --> 00:01:19,400
+Allega certificato medico del 23 gennaio <font color="#00ff00">1997,</font>
 
 57
-00:01:22,600 --> 00:01:22,660
-in scuola di l<font color="#00ff00">'avvocato</font> Nicola Grillo,
+00:01:21,840 --> 00:01:21,980
+<font color="#00ff00">che</font> è il certificato
 
 58
-00:01:22,660 --> 00:01:23,860
-in scuola di l'avvocato <font color="#00ff00">Nicola</font> Grillo,
+00:01:21,980 --> 00:01:22,200
+che <font color="#00ff00">è</font> il certificato
 
 59
-00:01:23,860 --> 00:01:24,220
-in scuola di l'avvocato Nicola <font color="#00ff00">Grillo,</font>
+00:01:22,200 --> 00:01:22,600
+che è <font color="#00ff00">il</font> certificato
 
 60
-00:01:33,380 --> 00:01:33,480
-<font color="#00ff00">che</font> l'avvocato Grillo è affetto da pneumofatia acuta per brile,
+00:01:22,600 --> 00:01:23,600
+che è il <font color="#00ff00">certificato</font>
 
 61
-00:01:33,480 --> 00:01:33,740
-che <font color="#00ff00">l</font>'avvocato Grillo è affetto da pneumofatia acuta per brile,
+00:01:23,920 --> 00:01:24,280
+<font color="#00ff00">medico</font> di oggi, il 23 gennaio,
 
 62
-00:01:33,740 --> 00:01:34,060
-che l<font color="#00ff00">'avvocato</font> Grillo è affetto da pneumofatia acuta per brile,
+00:01:24,280 --> 00:01:24,480
+medico <font color="#00ff00">di</font> oggi, il 23 gennaio,
 
 63
-00:01:34,060 --> 00:01:34,520
-che l'avvocato <font color="#00ff00">Grillo</font> è affetto da pneumofatia acuta per brile,
+00:01:24,480 --> 00:01:24,940
+medico di <font color="#00ff00">oggi,</font> il 23 gennaio,
 
 64
-00:01:34,520 --> 00:01:37,720
-che l'avvocato Grillo <font color="#00ff00">è</font> affetto da pneumofatia acuta per brile,
+00:01:24,940 --> 00:01:25,200
+medico di oggi, il 23 gennaio,
 
 65
-00:01:37,720 --> 00:01:38,260
-che l'avvocato Grillo è <font color="#00ff00">affetto</font> da pneumofatia acuta per brile,
+00:01:25,200 --> 00:01:25,280
+medico di oggi, <font color="#00ff00">il</font> 23 gennaio,
 
 66
-00:01:38,260 --> 00:01:38,620
-che l'avvocato Grillo è affetto <font color="#00ff00">da</font> pneumofatia acuta per brile,
+00:01:25,280 --> 00:01:25,560
+medico di oggi, il <font color="#00ff00">23</font> gennaio,
 
 67
-00:01:38,620 --> 00:01:40,180
-che l'avvocato Grillo è affetto da <font color="#00ff00">pneumofatia</font> acuta per brile,
+00:01:25,560 --> 00:01:26,460
+medico di oggi, il 23 <font color="#00ff00">gennaio,</font>
 
 68
-00:01:40,180 --> 00:01:41,040
-che l'avvocato Grillo è affetto da pneumofatia <font color="#00ff00">acuta</font> per brile,
+00:01:28,420 --> 00:01:29,200
+<font color="#00ff00">dal quale</font> si certifica che l'avvocato Grillo
 
 69
-00:01:41,040 --> 00:01:41,320
-che l'avvocato Grillo è affetto da pneumofatia acuta <font color="#00ff00">per</font> brile,
+00:01:29,200 --> 00:01:30,100
+dal quale <font color="#00ff00">si</font> certifica che l'avvocato Grillo
 
 70
-00:01:41,320 --> 00:01:41,820
-che l'avvocato Grillo è affetto da pneumofatia acuta per <font color="#00ff00">brile,</font>
+00:01:30,100 --> 00:01:32,260
+dal quale si <font color="#00ff00">certifica</font> che l'avvocato Grillo
 
 71
-00:01:44,800 --> 00:01:44,900
-<font color="#00ff00">di</font> sospetta natura virale
+00:01:32,260 --> 00:01:33,660
+dal quale si certifica <font color="#00ff00">che</font> l'avvocato Grillo
 
 72
-00:01:44,900 --> 00:01:45,320
-di <font color="#00ff00">sospetta</font> natura virale
+00:01:33,660 --> 00:01:33,780
+dal quale si certifica che <font color="#00ff00">l</font>'avvocato Grillo
 
 73
-00:01:45,320 --> 00:01:45,760
-di sospetta <font color="#00ff00">natura</font> virale
+00:01:33,780 --> 00:01:34,200
+dal quale si certifica che l<font color="#00ff00">'avvocato</font> Grillo
 
 74
-00:01:45,760 --> 00:01:46,360
-di sospetta natura <font color="#00ff00">virale</font>
+00:01:34,200 --> 00:01:35,320
+dal quale si certifica che l'avvocato <font color="#00ff00">Grillo</font>
 
 75
-00:01:51,100 --> 00:01:51,700
-<font color="#00ff00">e</font> che per tale malattia necessita di pure mediche,
+00:01:36,060 --> 00:01:37,900
+<font color="#00ff00">è</font> affetto
 
 76
-00:01:51,700 --> 00:01:51,840
-e <font color="#00ff00">che</font> per tale malattia necessita di pure mediche,
+00:01:37,900 --> 00:01:38,300
+è <font color="#00ff00">affetto</font>
 
 77
-00:01:51,840 --> 00:01:52,020
-e che <font color="#00ff00">per</font> tale malattia necessita di pure mediche,
+00:01:38,320 --> 00:01:38,880
+<font color="#00ff00">da</font> pneumofatia acuta a febrile,
 
 78
-00:01:52,020 --> 00:01:52,260
-e che per <font color="#00ff00">tale</font> malattia necessita di pure mediche,
+00:01:38,880 --> 00:01:40,660
+da <font color="#00ff00">pneumofatia</font> acuta a febrile,
 
 79
-00:01:52,260 --> 00:01:52,720
-e che per tale <font color="#00ff00">malattia</font> necessita di pure mediche,
+00:01:40,660 --> 00:01:41,220
+da pneumofatia <font color="#00ff00">acuta</font> a febrile,
 
 80
-00:01:52,720 --> 00:01:53,420
-e che per tale malattia <font color="#00ff00">necessita</font> di pure mediche,
+00:01:41,220 --> 00:01:41,320
+da pneumofatia acuta <font color="#00ff00">a</font> febrile,
 
 81
-00:01:53,420 --> 00:01:53,580
-e che per tale malattia necessita <font color="#00ff00">di</font> pure mediche,
+00:01:41,320 --> 00:01:42,440
+da pneumofatia acuta a <font color="#00ff00">febrile,</font>
 
 82
-00:01:53,580 --> 00:01:53,760
-e che per tale malattia necessita di <font color="#00ff00">pure</font> mediche,
+00:01:44,900 --> 00:01:45,000
+<font color="#00ff00">di</font> sospetta natura vitale
 
 83
-00:01:53,760 --> 00:01:54,320
-e che per tale malattia necessita di pure <font color="#00ff00">mediche,</font>
+00:01:45,000 --> 00:01:45,460
+di <font color="#00ff00">sospetta</font> natura vitale
 
 84
-00:01:56,440 --> 00:01:56,540
-<font color="#00ff00">è</font> riposo assoluto al letto,
+00:01:45,460 --> 00:01:45,940
+di sospetta <font color="#00ff00">natura</font> vitale
 
 85
-00:01:56,540 --> 00:01:56,960
-è <font color="#00ff00">riposo</font> assoluto al letto,
+00:01:45,940 --> 00:01:47,140
+di sospetta natura <font color="#00ff00">vitale</font>
 
 86
-00:01:56,960 --> 00:01:57,740
-è riposo <font color="#00ff00">assoluto</font> al letto,
+00:01:50,420 --> 00:01:51,820
+<font color="#00ff00">e</font> che per tale malattia necessita
 
 87
-00:01:57,740 --> 00:01:57,900
-è riposo assoluto <font color="#00ff00">al</font> letto,
+00:01:51,820 --> 00:01:51,980
+e <font color="#00ff00">che</font> per tale malattia necessita
 
 88
-00:01:57,900 --> 00:01:58,280
-è riposo assoluto al <font color="#00ff00">letto,</font>
+00:01:51,980 --> 00:01:52,200
+e che <font color="#00ff00">per</font> tale malattia necessita
 
 89
-00:02:01,060 --> 00:02:01,420
-<font color="#00ff00">contrognati</font> di giorni otto,
+00:01:52,200 --> 00:01:52,360
+e che per <font color="#00ff00">tale</font> malattia necessita
 
 90
-00:02:01,420 --> 00:02:01,600
-contrognati <font color="#00ff00">di</font> giorni otto,
+00:01:52,360 --> 00:01:52,920
+e che per tale <font color="#00ff00">malattia</font> necessita
 
 91
-00:02:01,600 --> 00:02:01,900
-contrognati di <font color="#00ff00">giorni</font> otto,
+00:01:52,920 --> 00:01:53,500
+e che per tale malattia <font color="#00ff00">necessita</font>
 
 92
-00:02:01,900 --> 00:02:02,340
-contrognati di giorni <font color="#00ff00">otto,</font>
+00:01:53,500 --> 00:01:53,680
+<font color="#00ff00">di</font> cure mediche e riposo assoluto al letto,
 
 93
-00:02:02,560 --> 00:02:03,520
-<font color="#00ff00">giorni</font> otto,
+00:01:53,680 --> 00:01:53,840
+di <font color="#00ff00">cure</font> mediche e riposo assoluto al letto,
 
 94
-00:02:03,520 --> 00:02:03,820
-giorni <font color="#00ff00">otto,</font>
+00:01:53,840 --> 00:01:54,960
+di cure <font color="#00ff00">mediche</font> e riposo assoluto al letto,
 
 95
-00:02:03,900 --> 00:02:04,000
-<font color="#00ff00">se</font> vi ho detto,
+00:01:54,960 --> 00:01:56,660
+di cure mediche <font color="#00ff00">e</font> riposo assoluto al letto,
 
 96
-00:02:04,000 --> 00:02:04,140
-se <font color="#00ff00">vi</font> ho detto,
+00:01:56,660 --> 00:01:57,180
+di cure mediche e <font color="#00ff00">riposo</font> assoluto al letto,
 
 97
-00:02:04,140 --> 00:02:04,200
-se vi <font color="#00ff00">ho</font> detto,
+00:01:57,180 --> 00:01:57,840
+di cure mediche e riposo <font color="#00ff00">assoluto</font> al letto,
 
 98
-00:02:04,200 --> 00:02:04,320
-se vi ho <font color="#00ff00">detto,</font>
+00:01:57,840 --> 00:01:58,000
+di cure mediche e riposo assoluto <font color="#00ff00">al</font> letto,
 
 99
-00:02:05,260 --> 00:02:05,940
-<font color="#00ff00">dal</font> 23,
+00:01:58,000 --> 00:01:59,440
+di cure mediche e riposo assoluto al <font color="#00ff00">letto,</font>
 
 100
-00:02:05,940 --> 00:02:06,200
-dal <font color="#00ff00">23,</font>
+00:02:01,060 --> 00:02:01,120
+<font color="#00ff00">con</font> prognosi di giorni otto,
 
 101
-00:02:07,400 --> 00:02:07,520
-<font color="#00ff00">che</font> è il vero, è veramente questo...
+00:02:01,120 --> 00:02:01,520
+con <font color="#00ff00">prognosi</font> di giorni otto,
 
 102
-00:02:07,520 --> 00:02:07,620
-che <font color="#00ff00">è</font> il vero, è veramente questo...
+00:02:01,520 --> 00:02:01,740
+con prognosi <font color="#00ff00">di</font> giorni otto,
 
 103
-00:02:07,620 --> 00:02:07,660
-che è <font color="#00ff00">il</font> vero, è veramente questo...
+00:02:01,740 --> 00:02:02,020
+con prognosi di <font color="#00ff00">giorni</font> otto,
 
 104
-00:02:07,660 --> 00:02:07,820
-che è il <font color="#00ff00">vero,</font> è veramente questo...
+00:02:02,020 --> 00:02:02,440
+con prognosi di giorni <font color="#00ff00">otto,</font>
 
 105
-00:02:07,820 --> 00:02:07,880
-che è il vero, è veramente questo...
+00:02:03,200 --> 00:02:03,600
+<font color="#00ff00">giorni</font> otto,
 
 106
-00:02:07,880 --> 00:02:08,060
-che è il vero, <font color="#00ff00">è</font> veramente questo...
+00:02:03,600 --> 00:02:03,920
+giorni <font color="#00ff00">otto,</font>
 
 107
-00:02:08,060 --> 00:02:08,340
-che è il vero, è <font color="#00ff00">veramente</font> questo...
+00:02:05,260 --> 00:02:06,000
+<font color="#00ff00">dal</font> 23 gennaio.
 
 108
-00:02:08,340 --> 00:02:08,740
-che è il vero, è veramente <font color="#00ff00">questo...</font>
+00:02:06,000 --> 00:02:06,480
+dal <font color="#00ff00">23</font> gennaio.
 
 109
-00:02:09,300 --> 00:02:09,460
-<font color="#00ff00">No,</font> io sono il nuovo gioco.
+00:02:06,480 --> 00:02:08,020
+dal 23 <font color="#00ff00">gennaio.</font>
 
 110
-00:02:09,460 --> 00:02:09,540
-No, io sono il nuovo gioco.
+00:02:37,040 --> 00:02:37,640
+<font color="#00ff00">È</font> visto il certificato al 21?
 
 111
-00:02:09,540 --> 00:02:09,660
-No, <font color="#00ff00">io</font> sono il nuovo gioco.
+00:02:37,640 --> 00:02:37,940
+È <font color="#00ff00">visto</font> il certificato al 21?
 
 112
-00:02:09,660 --> 00:02:09,920
-No, io <font color="#00ff00">sono</font> il nuovo gioco.
+00:02:37,940 --> 00:02:37,980
+È visto <font color="#00ff00">il</font> certificato al 21?
 
 113
-00:02:09,920 --> 00:02:10,380
-No, io sono <font color="#00ff00">il</font> nuovo gioco.
+00:02:37,980 --> 00:02:38,760
+È visto il <font color="#00ff00">certificato</font> al 21?
 
 114
-00:02:10,380 --> 00:02:10,560
-No, io sono il <font color="#00ff00">nuovo</font> gioco.
+00:02:38,760 --> 00:02:39,340
+È visto il certificato <font color="#00ff00">al</font> 21?
 
 115
-00:02:10,560 --> 00:02:10,860
-No, io sono il nuovo <font color="#00ff00">gioco.</font>
+00:02:39,340 --> 00:02:39,860
+È visto il certificato al <font color="#00ff00">21?</font>
 
 116
-00:02:11,440 --> 00:02:11,520
-<font color="#00ff00">Eh?</font>
-
-117
-00:02:11,860 --> 00:02:12,300
-<font color="#00ff00">Il</font> braio.
-
-118
-00:02:12,300 --> 00:02:12,600
-Il <font color="#00ff00">braio.</font>
-
-119
-00:02:13,440 --> 00:02:13,580
-<font color="#00ff00">Come?</font>
-
-120
-00:02:13,840 --> 00:02:14,160
-<font color="#00ff00">Il</font> braio, il braio ricevamo tutti la spessore.
-
-121
-00:02:14,160 --> 00:02:14,380
-Il <font color="#00ff00">braio,</font> il braio ricevamo tutti la spessore.
-
-122
-00:02:14,380 --> 00:02:14,680
-Il braio, il braio ricevamo tutti la spessore.
-
-123
-00:02:14,680 --> 00:02:15,300
-Il braio, <font color="#00ff00">il braio</font> ricevamo tutti la spessore.
-
-124
-00:02:15,300 --> 00:02:15,760
-Il braio, il braio <font color="#00ff00">ricevamo</font> tutti la spessore.
-
-125
-00:02:15,760 --> 00:02:16,080
-Il braio, il braio ricevamo <font color="#00ff00">tutti</font> la spessore.
-
-126
-00:02:16,080 --> 00:02:16,320
-Il braio, il braio ricevamo tutti <font color="#00ff00">la</font> spessore.
-
-127
-00:02:16,320 --> 00:02:16,560
-Il braio, il braio ricevamo tutti la <font color="#00ff00">spessore.</font>
-
-128
-00:02:19,280 --> 00:02:21,180
-<font color="#00ff00">Io</font> ho visto...
-
-129
-00:02:21,180 --> 00:02:21,340
-Io <font color="#00ff00">ho</font> visto...
-
-130
-00:02:21,340 --> 00:02:22,740
-Io ho <font color="#00ff00">visto...</font>
-
-131
-00:02:23,910 --> 00:02:24,460
-<font color="#00ff00">Il</font> gioco è il gioco.
-
-132
-00:02:24,460 --> 00:02:24,680
-Il <font color="#00ff00">gioco</font> è il gioco.
-
-133
-00:02:24,680 --> 00:02:24,940
-Il gioco <font color="#00ff00">è</font> il gioco.
-
-134
-00:02:24,940 --> 00:02:24,960
-Il gioco è <font color="#00ff00">il gioco.</font>
-
-135
-00:02:25,320 --> 00:02:25,420
-<font color="#00ff00">Il</font> braio è il re, è otto.
-
-136
-00:02:25,420 --> 00:02:25,580
-Il <font color="#00ff00">braio</font> è il re, è otto.
-
-137
-00:02:25,580 --> 00:02:25,740
-Il braio <font color="#00ff00">è il re,</font> è otto.
-
-138
-00:02:25,740 --> 00:02:25,960
-Il braio è il re, è otto.
-
-139
-00:02:25,960 --> 00:02:26,260
-Il braio è il re, <font color="#00ff00">è</font> otto.
-
-140
-00:02:26,260 --> 00:02:26,640
-Il braio è il re, è <font color="#00ff00">otto.</font>
-
-141
-00:02:36,380 --> 00:02:37,180
+00:02:43,200 --> 00:02:43,380
 <font color="#00ff00">E'</font>
 
+117
+00:02:44,320 --> 00:02:44,360
+<font color="#00ff00">visto</font> il pubblico mistero,
+
+118
+00:02:44,360 --> 00:02:44,760
+visto <font color="#00ff00">il pubblico</font> mistero,
+
+119
+00:02:44,760 --> 00:02:45,200
+visto il pubblico <font color="#00ff00">mistero,</font>
+
+120
+00:02:45,440 --> 00:02:45,600
+<font color="#00ff00">prima</font> o seconda il pubblico mistero,
+
+121
+00:02:45,600 --> 00:02:45,720
+prima <font color="#00ff00">o</font> seconda il pubblico mistero,
+
+122
+00:02:45,720 --> 00:02:45,760
+prima o <font color="#00ff00">seconda</font> il pubblico mistero,
+
+123
+00:02:45,760 --> 00:02:45,840
+prima o seconda <font color="#00ff00">il</font> pubblico mistero,
+
+124
+00:02:45,840 --> 00:02:46,080
+prima o seconda il <font color="#00ff00">pubblico</font> mistero,
+
+125
+00:02:46,080 --> 00:02:46,360
+prima o seconda il pubblico <font color="#00ff00">mistero,</font>
+
+126
+00:02:47,900 --> 00:02:48,380
+<font color="#00ff00">prende</font> atto dell'istanza del certificato
+
+127
+00:02:48,380 --> 00:02:49,500
+prende <font color="#00ff00">atto</font> dell'istanza del certificato
+
+128
+00:02:49,500 --> 00:02:49,720
+prende atto <font color="#00ff00">dell</font>'istanza del certificato
+
+129
+00:02:49,720 --> 00:02:50,180
+prende atto dell<font color="#00ff00">'istanza</font> del certificato
+
+130
+00:02:50,180 --> 00:02:50,400
+prende atto dell'istanza <font color="#00ff00">del</font> certificato
+
+131
+00:02:50,400 --> 00:02:50,980
+prende atto dell'istanza del <font color="#00ff00">certificato</font>
+
+132
+00:02:50,980 --> 00:02:51,300
+<font color="#00ff00">medico</font> e non si oppone al rinvio.
+
+133
+00:02:51,300 --> 00:02:51,420
+medico <font color="#00ff00">e</font> non si oppone al rinvio.
+
+134
+00:02:51,420 --> 00:02:51,540
+medico e <font color="#00ff00">non</font> si oppone al rinvio.
+
+135
+00:02:51,540 --> 00:02:51,600
+medico e non <font color="#00ff00">si</font> oppone al rinvio.
+
+136
+00:02:51,600 --> 00:02:51,880
+medico e non si <font color="#00ff00">oppone</font> al rinvio.
+
+137
+00:02:51,880 --> 00:02:52,020
+medico e non si oppone <font color="#00ff00">al</font> rinvio.
+
+138
+00:02:52,020 --> 00:02:52,370
+medico e non si oppone al <font color="#00ff00">rinvio.</font>
+
+139
+00:03:19,030 --> 00:03:19,680
+<font color="#00ff00">Allora,</font>
+
+140
+00:03:19,720 --> 00:03:19,940
+<font color="#00ff00">il</font> pubblico mistero non si oppone,
+
+141
+00:03:19,940 --> 00:03:20,180
+il <font color="#00ff00">pubblico</font> mistero non si oppone,
+
 142
-00:02:37,720 --> 00:02:37,840
-<font color="#00ff00">visto</font> il certificato al 31,
+00:03:20,180 --> 00:03:20,320
+il pubblico <font color="#00ff00">mistero</font> non si oppone,
 
 143
-00:02:37,840 --> 00:02:37,980
-visto <font color="#00ff00">il</font> certificato al 31,
+00:03:20,320 --> 00:03:20,520
+il pubblico mistero <font color="#00ff00">non</font> si oppone,
 
 144
-00:02:37,980 --> 00:02:38,580
-visto il <font color="#00ff00">certificato</font> al 31,
+00:03:20,520 --> 00:03:20,580
+il pubblico mistero non <font color="#00ff00">si</font> oppone,
 
 145
-00:02:38,580 --> 00:02:38,900
-visto il certificato <font color="#00ff00">al</font> 31,
+00:03:20,580 --> 00:03:20,860
+il pubblico mistero non si <font color="#00ff00">oppone,</font>
 
 146
-00:02:38,900 --> 00:02:39,640
-visto il certificato al <font color="#00ff00">31,</font>
+00:03:20,960 --> 00:03:21,100
+<font color="#00ff00">il</font> tribunale,
 
 147
-00:02:40,260 --> 00:02:40,440
-<font color="#00ff00">eh?</font>
+00:03:21,100 --> 00:03:21,600
+il <font color="#00ff00">tribunale,</font>
 
 148
-00:02:40,700 --> 00:02:41,060
-<font color="#00ff00">E'</font> sicuramente era il più...
+00:03:21,940 --> 00:03:22,460
+<font color="#00ff00">ritenuto</font> che
 
 149
-00:02:41,060 --> 00:02:41,400
-E' <font color="#00ff00">sicuramente</font> era il più...
+00:03:22,460 --> 00:03:23,900
+ritenuto <font color="#00ff00">che</font>
 
 150
-00:02:41,400 --> 00:02:41,720
-E' sicuramente <font color="#00ff00">era</font> il più...
+00:03:24,700 --> 00:03:24,960
+<font color="#00ff00">gli</font> altri difensori non si oppongono, eh?
 
 151
-00:02:41,720 --> 00:02:41,920
-E' sicuramente era <font color="#00ff00">il</font> più...
+00:03:24,960 --> 00:03:25,100
+gli <font color="#00ff00">altri</font> difensori non si oppongono, eh?
 
 152
-00:02:41,920 --> 00:02:42,660
-E' sicuramente era il <font color="#00ff00">più...</font>
+00:03:25,100 --> 00:03:25,620
+gli altri <font color="#00ff00">difensori</font> non si oppongono, eh?
 
 153
-00:02:42,660 --> 00:02:42,780
-<font color="#00ff00">Eh?</font>
+00:03:25,620 --> 00:03:25,800
+gli altri difensori <font color="#00ff00">non</font> si oppongono, eh?
 
 154
-00:02:43,100 --> 00:02:43,420
-<font color="#00ff00">Allora,</font>
+00:03:25,800 --> 00:03:25,980
+gli altri difensori non <font color="#00ff00">si</font> oppongono, eh?
 
 155
-00:02:43,940 --> 00:02:44,160
-<font color="#00ff00">il</font> pubblico mistero,
+00:03:25,980 --> 00:03:26,780
+gli altri difensori non si <font color="#00ff00">oppongono, eh?</font>
 
 156
-00:02:44,160 --> 00:02:44,640
-il <font color="#00ff00">pubblico</font> mistero,
+00:03:27,320 --> 00:03:27,460
+<font color="#00ff00">Gli</font> altri difensori non si oppongono,
 
 157
-00:02:44,640 --> 00:02:45,120
-il pubblico <font color="#00ff00">mistero,</font>
+00:03:27,460 --> 00:03:27,600
+Gli <font color="#00ff00">altri</font> difensori non si oppongono,
 
 158
-00:02:45,200 --> 00:02:45,300
-<font color="#00ff00">allora,</font>
+00:03:27,600 --> 00:03:27,980
+Gli altri <font color="#00ff00">difensori</font> non si oppongono,
 
 159
-00:02:45,440 --> 00:02:45,540
-<font color="#00ff00">prima</font> di tutto il cipro ministero,
+00:03:27,980 --> 00:03:28,120
+Gli altri difensori <font color="#00ff00">non</font> si oppongono,
 
 160
-00:02:45,540 --> 00:02:45,660
-prima <font color="#00ff00">di</font> tutto il cipro ministero,
+00:03:28,120 --> 00:03:28,220
+Gli altri difensori non <font color="#00ff00">si</font> oppongono,
 
 161
-00:02:45,660 --> 00:02:45,700
-prima di <font color="#00ff00">tutto</font> il cipro ministero,
+00:03:28,220 --> 00:03:28,560
+Gli altri difensori non si <font color="#00ff00">oppongono,</font>
 
 162
-00:02:45,700 --> 00:02:45,840
-prima di tutto <font color="#00ff00">il</font> cipro ministero,
+00:03:28,560 --> 00:03:28,660
+<font color="#00ff00">e</font> il tribunale,
 
 163
-00:02:45,840 --> 00:02:45,960
-prima di tutto il <font color="#00ff00">cipro</font> ministero,
+00:03:28,660 --> 00:03:28,780
+e <font color="#00ff00">il</font> tribunale,
 
 164
-00:02:45,960 --> 00:02:46,260
-prima di tutto il cipro <font color="#00ff00">ministero,</font>
+00:03:28,780 --> 00:03:29,080
+e il <font color="#00ff00">tribunale,</font>
 
 165
-00:02:46,440 --> 00:02:46,600
-<font color="#00ff00">farei</font> il cipro mistero.
+00:03:29,140 --> 00:03:29,620
+<font color="#00ff00">ritenuto</font> che
 
 166
-00:02:46,600 --> 00:02:46,780
-farei <font color="#00ff00">il cipro</font> mistero.
+00:03:29,620 --> 00:03:31,660
+ritenuto <font color="#00ff00">che</font>
 
 167
-00:02:46,780 --> 00:02:47,230
-farei il cipro <font color="#00ff00">mistero.</font>
+00:03:32,440 --> 00:03:32,720
+<font color="#00ff00">dalla</font> certificazione medica prodotta emerge
 
 168
-00:02:47,900 --> 00:02:48,120
-<font color="#00ff00">Il</font> 30 atto dell'estante del certificato medico,
+00:03:32,720 --> 00:03:33,560
+dalla <font color="#00ff00">certificazione</font> medica prodotta emerge
 
 169
-00:02:48,120 --> 00:02:48,620
-Il <font color="#00ff00">30 atto</font> dell'estante del certificato medico,
+00:03:33,560 --> 00:03:36,060
+dalla certificazione <font color="#00ff00">medica</font> prodotta emerge
 
 170
-00:02:48,620 --> 00:02:48,820
-Il 30 atto <font color="#00ff00">dell</font>'estante del certificato medico,
+00:03:36,060 --> 00:03:36,360
+dalla certificazione medica prodotta emerge
 
 171
-00:02:48,820 --> 00:02:50,040
-Il 30 atto dell<font color="#00ff00">'estante</font> del certificato medico,
+00:03:36,360 --> 00:03:40,920
+dalla certificazione medica <font color="#00ff00">prodotta</font> emerge
 
 172
-00:02:50,040 --> 00:02:50,280
-Il 30 atto dell'estante <font color="#00ff00">del</font> certificato medico,
+00:03:40,920 --> 00:03:41,420
+dalla certificazione medica prodotta emerge
 
 173
-00:02:50,280 --> 00:02:50,760
-Il 30 atto dell'estante del <font color="#00ff00">certificato</font> medico,
+00:03:41,420 --> 00:03:44,400
+dalla certificazione medica prodotta <font color="#00ff00">emerge</font>
 
 174
-00:02:50,760 --> 00:02:51,220
-Il 30 atto dell'estante del certificato <font color="#00ff00">medico,</font>
+00:03:46,900 --> 00:03:47,060
+<font color="#00ff00">la situazione</font>
 
 175
-00:02:51,260 --> 00:02:51,320
-<font color="#00ff00">ma</font> non si appena al vendio.
+00:03:47,080 --> 00:03:47,260
+<font color="#00ff00">di</font> solute impossibilità del difensore
 
 176
-00:02:51,320 --> 00:02:51,400
-ma <font color="#00ff00">non</font> si appena al vendio.
+00:03:47,260 --> 00:03:47,380
+di <font color="#00ff00">solute</font> impossibilità del difensore
 
 177
-00:02:51,400 --> 00:02:51,520
-ma non <font color="#00ff00">si</font> appena al vendio.
+00:03:47,380 --> 00:03:48,340
+di solute <font color="#00ff00">impossibilità</font> del difensore
 
 178
-00:02:51,520 --> 00:02:51,740
-ma non si <font color="#00ff00">appena</font> al vendio.
+00:03:48,340 --> 00:03:48,860
+di solute impossibilità <font color="#00ff00">del</font> difensore
 
 179
-00:02:51,740 --> 00:02:51,940
-ma non si appena <font color="#00ff00">al</font> vendio.
+00:03:48,860 --> 00:03:49,580
+di solute impossibilità del <font color="#00ff00">difensore</font>
 
 180
-00:02:51,940 --> 00:02:52,240
-ma non si appena al <font color="#00ff00">vendio.</font>
+00:03:49,580 --> 00:03:49,720
+<font color="#00ff00">a</font> presentare allo giorno di inizio,
 
 181
-00:03:18,340 --> 00:03:18,940
-<font color="#00ff00">Allora,</font>
+00:03:49,720 --> 00:03:50,280
+a <font color="#00ff00">presentare</font> allo giorno di inizio,
 
 182
-00:03:19,620 --> 00:03:19,760
-<font color="#00ff00">il</font> pubblico mistero non c'è fuori, il tribunale?
+00:03:50,280 --> 00:03:50,500
+a presentare <font color="#00ff00">allo</font> giorno di inizio,
 
 183
-00:03:19,760 --> 00:03:20,020
-il <font color="#00ff00">pubblico</font> mistero non c'è fuori, il tribunale?
+00:03:50,500 --> 00:03:50,680
+a presentare allo <font color="#00ff00">giorno</font> di inizio,
 
 184
-00:03:20,020 --> 00:03:20,240
-il pubblico <font color="#00ff00">mistero</font> non c'è fuori, il tribunale?
+00:03:50,680 --> 00:03:50,880
+a presentare allo giorno <font color="#00ff00">di</font> inizio,
 
 185
-00:03:20,240 --> 00:03:20,400
-il pubblico mistero <font color="#00ff00">non</font> c'è fuori, il tribunale?
+00:03:50,880 --> 00:03:51,430
+a presentare allo giorno di <font color="#00ff00">inizio,</font>
 
 186
-00:03:20,400 --> 00:03:20,480
-il pubblico mistero non <font color="#00ff00">c</font>'è fuori, il tribunale?
+00:03:57,100 --> 00:03:57,260
+<font color="#00ff00">per</font> motivi di salute.
 
 187
-00:03:20,480 --> 00:03:20,760
-il pubblico mistero non c<font color="#00ff00">'è fuori,</font> il tribunale?
+00:03:57,260 --> 00:03:57,560
+per <font color="#00ff00">motivi</font> di salute.
 
 188
-00:03:20,760 --> 00:03:20,860
-il pubblico mistero non c'è fuori, il tribunale?
+00:03:57,560 --> 00:03:57,800
+per motivi <font color="#00ff00">di</font> salute.
 
 189
-00:03:20,860 --> 00:03:20,960
-il pubblico mistero non c'è fuori, <font color="#00ff00">il</font> tribunale?
+00:03:57,800 --> 00:03:58,180
+per motivi di <font color="#00ff00">salute.</font>
 
 190
-00:03:20,960 --> 00:03:21,360
-il pubblico mistero non c'è fuori, il <font color="#00ff00">tribunale?</font>
+00:04:06,690 --> 00:04:07,440
+<font color="#00ff00">Sostento</font> il legittimo impedimento all'avvocato Grillo,
 
 191
-00:03:21,920 --> 00:03:22,300
-<font color="#00ff00">Ritenuto</font> che?
+00:04:07,440 --> 00:04:07,580
+Sostento <font color="#00ff00">il</font> legittimo impedimento all'avvocato Grillo,
 
 192
-00:03:22,300 --> 00:03:22,540
-Ritenuto <font color="#00ff00">che?</font>
+00:04:07,580 --> 00:04:07,880
+Sostento il <font color="#00ff00">legittimo</font> impedimento all'avvocato Grillo,
 
 193
-00:03:24,450 --> 00:03:24,900
-<font color="#00ff00">Gli</font> altri difensori non ci occorrono, eh?
+00:04:07,880 --> 00:04:08,340
+Sostento il legittimo <font color="#00ff00">impedimento</font> all'avvocato Grillo,
 
 194
-00:03:24,900 --> 00:03:25,000
-Gli <font color="#00ff00">altri</font> difensori non ci occorrono, eh?
+00:04:08,340 --> 00:04:08,520
+Sostento il legittimo impedimento <font color="#00ff00">all</font>'avvocato Grillo,
 
 195
-00:03:25,000 --> 00:03:25,520
-Gli altri <font color="#00ff00">difensori</font> non ci occorrono, eh?
+00:04:08,520 --> 00:04:08,900
+Sostento il legittimo impedimento all<font color="#00ff00">'avvocato</font> Grillo,
 
 196
-00:03:25,520 --> 00:03:25,720
-Gli altri difensori <font color="#00ff00">non</font> ci occorrono, eh?
+00:04:08,900 --> 00:04:09,200
+Sostento il legittimo impedimento all'avvocato <font color="#00ff00">Grillo,</font>
 
 197
-00:03:25,720 --> 00:03:25,840
-Gli altri difensori non <font color="#00ff00">ci</font> occorrono, eh?
+00:04:09,360 --> 00:04:09,680
+<font color="#00ff00">rinvia</font> il processo preliminarmente all'udienza del 31 gennaio 1997.
 
 198
-00:03:25,840 --> 00:03:26,700
-Gli altri difensori non ci <font color="#00ff00">occorrono,</font> eh?
+00:04:09,680 --> 00:04:09,940
+rinvia <font color="#00ff00">il</font> processo preliminarmente all'udienza del 31 gennaio 1997.
 
 199
-00:03:26,700 --> 00:03:26,720
-Gli altri difensori non ci occorrono, eh?
+00:04:09,940 --> 00:04:10,320
+rinvia il <font color="#00ff00">processo</font> preliminarmente all'udienza del 31 gennaio 1997.
 
 200
-00:03:26,720 --> 00:03:26,780
-Gli altri difensori non ci occorrono, <font color="#00ff00">eh?</font>
+00:04:10,320 --> 00:04:11,700
+rinvia il processo <font color="#00ff00">preliminarmente</font> all'udienza del 31 gennaio 1997.
 
 201
-00:03:27,280 --> 00:03:27,460
-<font color="#00ff00">Gli</font> altri difensori non ci occorrono,
+00:04:11,700 --> 00:04:12,000
+rinvia il processo preliminarmente <font color="#00ff00">all</font>'udienza del 31 gennaio 1997.
 
 202
-00:03:27,460 --> 00:03:27,900
-Gli <font color="#00ff00">altri difensori</font> non ci occorrono,
+00:04:12,000 --> 00:04:12,360
+rinvia il processo preliminarmente all<font color="#00ff00">'udienza</font> del 31 gennaio 1997.
 
 203
-00:03:27,900 --> 00:03:28,060
-Gli altri difensori <font color="#00ff00">non</font> ci occorrono,
+00:04:12,360 --> 00:04:12,700
+rinvia il processo preliminarmente all'udienza <font color="#00ff00">del</font> 31 gennaio 1997.
 
 204
-00:03:28,060 --> 00:03:28,160
-Gli altri difensori non <font color="#00ff00">ci</font> occorrono,
+00:04:12,700 --> 00:04:13,320
+rinvia il processo preliminarmente all'udienza del <font color="#00ff00">31</font> gennaio 1997.
 
 205
-00:03:28,160 --> 00:03:28,460
-Gli altri difensori non ci <font color="#00ff00">occorrono,</font>
+00:04:13,320 --> 00:04:15,220
+rinvia il processo preliminarmente all'udienza del 31 <font color="#00ff00">gennaio</font> 1997.
 
 206
-00:03:28,580 --> 00:03:28,640
-<font color="#00ff00">il</font> tribunale che è tenuto che?
+00:04:15,220 --> 00:04:16,120
+rinvia il processo preliminarmente all'udienza del 31 gennaio <font color="#00ff00">1997.</font>
 
 207
-00:03:28,640 --> 00:03:29,040
-il <font color="#00ff00">tribunale</font> che è tenuto che?
+00:04:21,140 --> 00:04:21,860
+<font color="#00ff00">Gli</font> laureali al viso,
 
 208
-00:03:29,040 --> 00:03:29,200
-il tribunale <font color="#00ff00">che</font> è tenuto che?
+00:04:21,860 --> 00:04:22,240
+Gli <font color="#00ff00">laureali</font> al viso,
 
 209
-00:03:29,200 --> 00:03:29,240
-il tribunale che <font color="#00ff00">è</font> tenuto che?
+00:04:22,240 --> 00:04:22,380
+Gli laureali <font color="#00ff00">al</font> viso,
 
 210
-00:03:29,240 --> 00:03:29,440
-il tribunale che è <font color="#00ff00">tenuto</font> che?
+00:04:22,380 --> 00:04:22,580
+Gli laureali al <font color="#00ff00">viso,</font>
 
 211
-00:03:29,440 --> 00:03:29,700
-il tribunale che è tenuto <font color="#00ff00">che?</font>
+00:04:22,640 --> 00:04:22,780
+<font color="#00ff00">agli</font> imputati presenti e ai difensori.
 
 212
-00:03:32,400 --> 00:03:32,640
-<font color="#00ff00">Dalla</font> certificazione medica.
+00:04:22,780 --> 00:04:23,160
+agli <font color="#00ff00">imputati</font> presenti e ai difensori.
 
 213
-00:03:32,640 --> 00:03:33,400
-Dalla <font color="#00ff00">certificazione</font> medica.
+00:04:23,160 --> 00:04:23,800
+agli imputati <font color="#00ff00">presenti</font> e ai difensori.
 
 214
-00:03:33,400 --> 00:03:34,340
-Dalla certificazione <font color="#00ff00">medica.</font>
+00:04:23,800 --> 00:04:23,900
+agli imputati presenti <font color="#00ff00">e</font> ai difensori.
 
 215
-00:03:37,920 --> 00:03:39,720
-<font color="#00ff00">Rodotta.</font>
+00:04:23,900 --> 00:04:23,980
+agli imputati presenti e <font color="#00ff00">ai</font> difensori.
 
 216
-00:03:43,800 --> 00:03:44,360
-<font color="#00ff00">Emerge</font> la solutimpossibilità del difensore,
-
-217
-00:03:44,360 --> 00:03:46,980
-Emerge <font color="#00ff00">la</font> solutimpossibilità del difensore,
-
-218
-00:03:46,980 --> 00:03:47,080
-Emerge la solutimpossibilità del difensore,
-
-219
-00:03:47,080 --> 00:03:48,080
-Emerge la <font color="#00ff00">solutimpossibilità</font> del difensore,
-
-220
-00:03:48,080 --> 00:03:48,460
-Emerge la solutimpossibilità <font color="#00ff00">del</font> difensore,
-
-221
-00:03:48,460 --> 00:03:49,440
-Emerge la solutimpossibilità del <font color="#00ff00">difensore,</font>
-
-222
-00:03:49,800 --> 00:03:50,200
-<font color="#00ff00">presentiara</font> l'odio al 90.
-
-223
-00:03:50,200 --> 00:03:50,380
-presentiara <font color="#00ff00">l</font>'odio al 90.
-
-224
-00:03:50,380 --> 00:03:50,480
-presentiara l<font color="#00ff00">'odio</font> al 90.
-
-225
-00:03:50,480 --> 00:03:50,600
-presentiara l'odio <font color="#00ff00">al</font> 90.
-
-226
-00:03:50,600 --> 00:03:50,760
-presentiara l'odio al <font color="#00ff00">90.</font>
-
-227
-00:03:56,440 --> 00:03:57,140
-<font color="#00ff00">Per</font> notifiche di salute.
-
-228
-00:03:57,140 --> 00:03:57,540
-Per <font color="#00ff00">notifiche</font> di salute.
-
-229
-00:03:57,540 --> 00:03:57,680
-Per notifiche <font color="#00ff00">di</font> salute.
-
-230
-00:03:57,680 --> 00:03:57,900
-Per notifiche di <font color="#00ff00">salute.</font>
-
-231
-00:04:06,260 --> 00:04:06,960
-<font color="#00ff00">Se</font> si stende un ingigliano in vendimento all'avvocato Grillo,
-
-232
-00:04:06,960 --> 00:04:07,100
-Se <font color="#00ff00">si</font> stende un ingigliano in vendimento all'avvocato Grillo,
-
-233
-00:04:07,100 --> 00:04:07,320
-Se si <font color="#00ff00">stende</font> un ingigliano in vendimento all'avvocato Grillo,
-
-234
-00:04:07,320 --> 00:04:07,500
-Se si stende <font color="#00ff00">un</font> ingigliano in vendimento all'avvocato Grillo,
-
-235
-00:04:07,500 --> 00:04:07,780
-Se si stende un <font color="#00ff00">ingigliano</font> in vendimento all'avvocato Grillo,
-
-236
-00:04:07,780 --> 00:04:07,940
-Se si stende un ingigliano <font color="#00ff00">in</font> vendimento all'avvocato Grillo,
-
-237
-00:04:07,940 --> 00:04:08,280
-Se si stende un ingigliano in <font color="#00ff00">vendimento</font> all'avvocato Grillo,
-
-238
-00:04:08,280 --> 00:04:08,440
-Se si stende un ingigliano in vendimento <font color="#00ff00">all</font>'avvocato Grillo,
-
-239
-00:04:08,440 --> 00:04:08,760
-Se si stende un ingigliano in vendimento all<font color="#00ff00">'avvocato</font> Grillo,
-
-240
-00:04:08,760 --> 00:04:09,120
-Se si stende un ingigliano in vendimento all'avvocato <font color="#00ff00">Grillo,</font>
-
-241
-00:04:09,340 --> 00:04:09,620
-<font color="#00ff00">rintia</font> il
-
-242
-00:04:09,620 --> 00:04:09,700
-rintia <font color="#00ff00">il</font>
-
-243
-00:04:09,720 --> 00:04:10,240
-<font color="#00ff00">processo</font> prediminalmente allughenza del 31 gennaio 2008 e настоящo,
-
-244
-00:04:10,240 --> 00:04:11,300
-processo <font color="#00ff00">prediminalmente</font> allughenza del 31 gennaio 2008 e настоящo,
-
-245
-00:04:11,300 --> 00:04:12,320
-processo prediminalmente <font color="#00ff00">allughenza</font> del 31 gennaio 2008 e настоящo,
-
-246
-00:04:12,320 --> 00:04:12,520
-processo prediminalmente allughenza <font color="#00ff00">del</font> 31 gennaio 2008 e настоящo,
-
-247
-00:04:12,520 --> 00:04:13,020
-processo prediminalmente allughenza del <font color="#00ff00">31</font> gennaio 2008 e настоящo,
-
-248
-00:04:13,020 --> 00:04:14,160
-processo prediminalmente allughenza del 31 <font color="#00ff00">gennaio</font> 2008 e настоящo,
-
-249
-00:04:14,160 --> 00:04:14,480
-processo prediminalmente allughenza del 31 gennaio <font color="#00ff00">2008</font> e настоящo,
-
-250
-00:04:14,480 --> 00:04:15,480
-processo prediminalmente allughenza del 31 gennaio 2008 <font color="#00ff00">e настоящo,</font>
-
-251
-00:04:15,480 --> 00:04:15,580
-<font color="#00ff00">ma</font> allaburgazzo nice di
-
-252
-00:04:15,580 --> 00:04:15,900
-ma <font color="#00ff00">allaburgazzo</font> nice di
-
-253
-00:04:15,900 --> 00:04:16,700
-ma allaburgazzo <font color="#00ff00">nice di</font>
-
-254
-00:04:24,030 --> 00:04:24,080
-<font color="#00ff00">ins</font> introduction.
-
-255
-00:04:24,080 --> 00:04:24,360
-ins <font color="#00ff00">introduction.</font>
-
-256
-00:04:29,460 --> 00:04:29,480
-<font color="#00ff00">Come</font> dipende comprendere.
-
-257
-00:04:29,480 --> 00:04:29,860
-Come <font color="#00ff00">dipende comprendere.</font>
-
-258
-00:04:29,860 --> 00:04:30,000
-<font color="#00ff00">Sörencia del 1991Was one</font>
+00:04:23,980 --> 00:04:24,580
+agli imputati presenti e ai <font color="#00ff00">difensori.</font>
