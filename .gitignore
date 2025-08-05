@@ -171,11 +171,6 @@ cython_debug/
 # Langmodels and other heavy stuff
 *.zip
 
-# Data folder
-data/*
-
 # Logs 
 nohup.out
 
-# Virtual environment
-arrenv/*
