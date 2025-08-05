@@ -13,5 +13,6 @@ if __name__ == "__main__":
     with open("whisper_prompt.txt") as f:
         prompt = f.read()
         print(prompt)
-    result = model.transcribe(audio_path, initial_prompt=prompt, vad_threshold=0.45)
+    opts = {"language": "it"}
+    result = model.transcribe(audio_path, initial_prompt=prompt, vad_threshold=0.45, **opts)
     result.to_srt_vtt(os.path.splitext(audio_path)[0] + ".srt")
