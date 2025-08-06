@@ -10,8 +10,8 @@
 | [18 gennaio 1996 file 3](https://www.radioradicale.it/scheda/89713/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |
 | [21 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |
 | [21 gennaio 1997 file 2](https://www.radioradicale.it/scheda/89714/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |
-| [24 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89715/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |  |  |  |  | 4 minuti: NG richiede rinvio in vece di GG |
-| [31 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |  |  |  |  | intervento lungo GG |
+| [24 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89715/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ | ✔ |  |  |  | 4 minuti: NG richiede rinvio in vece di GG |
+| [31 gennaio 1997 file 1](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ | ✔ |  |  |  | intervento lungo GG |
 | [31 gennaio 1997 file 2](https://www.radioradicale.it/scheda/89716/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |  |  |  |  | intervento lungo GG; appended to previous file |
 | [1 febbraio 1997 file 1](https://www.radioradicale.it/scheda/89717/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |
 | [1 febbraio 1997 file 2](https://www.radioradicale.it/scheda/89717/processo-per-lo-scandalo-dellospedale-psichiatrico-di-agrigento)  | ✔ |  |  |  |  | intervento lungo GG |
@@ -21,7 +21,7 @@
 
 | traccia | download | trascrizione | correzione | impaginazione | rilettura |
 | --- | --- | --- | --- | --- | --- |
-| [25 giugno 1986 file 1](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) | ✔ |
+| [25 giugno 1986 file 1](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) |  |
 | [25 giugno 1986 file 2](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) | 
 | [25 giugno 1986 file 3](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) |
 | [25 giugno 1986 file 4](https://www.radioradicale.it/scheda/17807/maxiprocesso-a-cosa-nostra) |
