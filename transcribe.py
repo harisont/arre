@@ -12,7 +12,6 @@ if __name__ == "__main__":
     model = stable_whisper.load_model("medium", **params)
     with open(prompt_path) as f:
         prompt = f.read()
-        print(prompt)
     opts = {"language": "it"}
     result = model.transcribe(audio_path, initial_prompt=prompt, vad_threshold=0.45, **opts)
     result.to_srt_vtt(os.path.splitext(audio_path)[0] + ".srt")
