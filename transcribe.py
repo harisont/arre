@@ -21,7 +21,7 @@ if __name__ == "__main__":
         "-t", "--vad-threshold", 
         help="Voice Activity Detection threshold (a float between 0 and 1)", 
         type=float,
-        default=0.4
+        default=0.45
     )
     args = parser.parse_args()
     audio_path = args.audio
