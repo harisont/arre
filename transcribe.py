@@ -9,7 +9,7 @@ if __name__ == "__main__":
         description="Transcribe with stable-ts (Whisper)")
     parser.add_argument("audio", help="path to the audio file")
     parser.add_argument(
-        "-p", "prompt", 
+        "-p", "--prompt", 
         help="path to the prompt",
         default="Mongiovì Angelo, difeso dagli avvocati Grillo e Mongiovì.")
     parser.add_argument(
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     audio_path = args.audio
     prompt_path = args.prompt
     lang = args.lang
-    threshold = args.vad_treshold
+    threshold = args.vad_threshold
     params = {
         "device": "cuda:0" if torch.cuda.is_available() else "cpu"
     }
