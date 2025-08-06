@@ -5,12 +5,12 @@ import stable_whisper
 
 if __name__ == "__main__":
     audio_path = sys.argv[1]
-    prompt = sys.argv[2]
+    prompt_path = sys.argv[2]
     params = {
         "device": "cuda:0" if torch.cuda.is_available() else "cpu"
     }
     model = stable_whisper.load_model("medium", **params)
-    with open("whisper_prompt.txt") as f:
+    with open(prompt_path) as f:
         prompt = f.read()
         print(prompt)
     opts = {"language": "it"}
